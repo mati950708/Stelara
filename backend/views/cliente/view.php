@@ -4,28 +4,26 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\Producto */
+/* @var $model backend\models\Cliente */
 
 $this->title = $model->nombre;
-$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Productos'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Clientes'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="producto-view">
+<div class="cliente-view">
 
     <h1><?= Html::encode($this->title) ?></h1>
+
 
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
             'id',
             'nombre',
-            'precio_unit',
-            'costo_unit',
-            'cantidad_actual',
-            [
-                'attribute' => 'category_id',
-                'value' => $model->category->nombre,
-            ],
+            'apaterno',
+            'amaterno',
+            'telefono',
+            'direccion:ntext',
             'observaciones:ntext',
         ],
     ]) ?>

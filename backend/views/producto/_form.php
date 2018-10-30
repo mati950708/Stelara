@@ -12,19 +12,53 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'id')->textInput() ?>
+    <div class="row">
+        <div class="col-lg-4">
+            <?= $form->field($model, 'nombre')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-lg-4">
+            <?= $form->field($model, 'precio_unit')->Input('number') ?>
+        </div>
+        <div class="col-lg-4">
+            <?= $form->field($model, 'costo_unit')->Input('number') ?>
+        </div>
+    </div>
+    <div class="row">
+        <?php
+        if ($model->isNewRecord) {
+            ?>
+            <div class="col-lg-6">
+                <?= $form->field($model, 'cantidad_actual')->Input('number') ?>
+            </div>
+            <div class="col-lg-6">
+                <?= $form->field($model, 'category_id')->dropDownList(
+                    \yii\helpers\ArrayHelper::map(\backend\models\CategoriaP::find()->all(), 'id', 'nombre'),
+                    [
+                        'prompt' => 'Elige la categoría'
+                    ]
+                ) ?>
+            </div>
+            <?php
+        }else {
+            ?>
+            <div class="col-lg-12">
+                <?= $form->field($model, 'category_id')->dropDownList(
+                    \yii\helpers\ArrayHelper::map(\backend\models\CategoriaP::find()->all(), 'id', 'nombre'),
+                    [
+                        'prompt' => 'Elige la categoría'
+                    ]
+                ) ?>
+            </div>
+            <?php
+        }
+        ?>
 
-    <?= $form->field($model, 'nombre')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'precio')->textInput() ?>
-
-    <?= $form->field($model, 'cantidad_actual')->textInput() ?>
-
-    <?= $form->field($model, 'estado')->textInput() ?>
-
-    <?= $form->field($model, 'observaciones')->textarea(['rows' => 6]) ?>
-
-    <?= $form->field($model, 'category_id')->textInput() ?>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <?= $form->field($model, 'observaciones')->textarea(['rows' => 6]) ?>
+        </div>
+    </div>
 
     <div class="form-group">
         <?= Html::submitButton(Yii::t('app', 'Save'), ['class' => 'btn btn-success']) ?>

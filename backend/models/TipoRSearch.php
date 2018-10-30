@@ -5,12 +5,12 @@ namespace backend\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\models\Producto;
+use backend\models\TipoR;
 
 /**
- * ProductoSearch represents the model behind the search form of `backend\models\Producto`.
+ * TipoRSearch represents the model behind the search form of `backend\models\TipoR`.
  */
-class ProductoSearch extends Producto
+class TipoRSearch extends TipoR
 {
     /**
      * {@inheritdoc}
@@ -18,9 +18,8 @@ class ProductoSearch extends Producto
     public function rules()
     {
         return [
-            [['id', 'cantidad_actual', 'estado', 'category_id'], 'integer'],
-            [['nombre', 'observaciones'], 'safe'],
-            [['precio_unit', 'costo_unit'], 'number'],
+            [['id', 'estado'], 'integer'],
+            [['nombre'], 'safe'],
         ];
     }
 
@@ -42,7 +41,7 @@ class ProductoSearch extends Producto
      */
     public function search($params)
     {
-        $query = Producto::find();
+        $query = TipoR::find();
 
         // add conditions that should always apply here
 
@@ -61,15 +60,10 @@ class ProductoSearch extends Producto
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
-            'precio_unit' => $this->precio_unit,
-            'cantidad_actual' => $this->cantidad_actual,
             'estado' => $this->estado,
-            'category_id' => $this->category_id,
-            'costo_unit' => $this->costo_unit,
         ]);
 
-        $query->andFilterWhere(['ilike', 'nombre', $this->nombre])
-            ->andFilterWhere(['ilike', 'observaciones', $this->observaciones]);
+        $query->andFilterWhere(['ilike', 'nombre', $this->nombre]);
 
         return $dataProvider;
     }

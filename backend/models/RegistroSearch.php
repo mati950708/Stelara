@@ -5,12 +5,12 @@ namespace backend\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\models\Shop;
+use backend\models\Registro;
 
 /**
- * ShopSearch represents the model behind the search form of `backend\models\Shop`.
+ * RegistroSearch represents the model behind the search form of `backend\models\Registro`.
  */
-class ShopSearch extends Shop
+class RegistroSearch extends Registro
 {
     /**
      * {@inheritdoc}
@@ -18,8 +18,8 @@ class ShopSearch extends Shop
     public function rules()
     {
         return [
-            [['idshop'], 'integer'],
-            [['name'], 'safe'],
+            [['id', 'cantidad', 'estado', 'producto_id', 'tipo_r_id', 'cliente_id'], 'integer'],
+            [['fecha', 'observaciones'], 'safe'],
         ];
     }
 
@@ -41,7 +41,7 @@ class ShopSearch extends Shop
      */
     public function search($params)
     {
-        $query = Shop::find();
+        $query = Registro::find();
 
         // add conditions that should always apply here
 
@@ -59,10 +59,16 @@ class ShopSearch extends Shop
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'idshop' => $this->idshop,
+            'id' => $this->id,
+            'cantidad' => $this->cantidad,
+            'fecha' => $this->fecha,
+            'estado' => $this->estado,
+            'producto_id' => $this->producto_id,
+            'tipo_r_id' => $this->tipo_r_id,
+            'cliente_id' => $this->cliente_id,
         ]);
 
-        $query->andFilterWhere(['like', 'name', $this->name]);
+        $query->andFilterWhere(['ilike', 'observaciones', $this->observaciones]);
 
         return $dataProvider;
     }

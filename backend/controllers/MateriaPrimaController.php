@@ -3,19 +3,17 @@
 namespace backend\controllers;
 
 use backend\models\Bitacora;
-use backend\models\Registro;
 use Yii;
-use backend\models\Producto;
-use backend\models\ProductoSearch;
-use yii\data\ArrayDataProvider;
+use backend\models\MateriaPrima;
+use backend\models\MateriaPrimaSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * ProductoController implements the CRUD actions for Producto model.
+ * MateriaPrimaController implements the CRUD actions for MateriaPrima model.
  */
-class ProductoController extends Controller
+class MateriaPrimaController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -33,64 +31,22 @@ class ProductoController extends Controller
     }
 
     /**
-     * Lists all Producto models.
+     * Lists all MateriaPrima models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new ProductoSearch();
+        $searchModel = new MateriaPrimaSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-        $dataProvider->query->andFilterWhere(['=', 'estado', '0'])->all();
 
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
     }
-    public function actionRegistro()
-    {
-
-        $crosstab = Yii::$app->db2->createCommand("
-SELECT *
-FROM crosstab(
-    'SELECT c.nombre AS cnombre, p.precio_unit, p.nombre
-     FROM producto p
-     INNER JOIN categoria_p c
-     ON c.id = p.category_id
-     AND p.estado = 0'
-) AS ct(Categoria character varying(45), Primer_Producto character varying(45), Segundo_Producto character varying(45), Tercer_Producto character varying(45));
-")->queryAll();
-
-        $dataProvider = new ArrayDataProvider([
-
-            'allModels' => $crosstab,
-
-            'sort' => [
-
-                'attributes' => [
-                    'categoria',
-                    'primer_producto',
-                    'segundo_producto',
-                    'tercer_producto'
-                ],
-
-            ],
-
-            'pagination' => [
-
-                'pageSize' => 12,
-
-            ],
-
-        ]);
-
-        return $this->render('registro', [
-            'dataProvider' => $dataProvider,
-        ]);
-    }
 
     /**
-     * Displays a single Producto model.
+     * Displays a single MateriaPrima model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -103,45 +59,31 @@ FROM crosstab(
     }
 
     /**
-     * Creates a new Producto model.
+     * Creates a new MateriaPrima model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Producto();
+        $model = new MateriaPrima();
 
         if ($model->load(Yii::$app->request->post())) {
-            $model->id = Yii::$app->db2->createCommand("SELECT nextval('producto_id_seq');")->queryAll()[0]['nextval'];
-            $model->estado = 0;
-            $model->save();
-
-            $reg = new Registro();
-            $reg->id = Yii::$app->db2->createCommand("SELECT nextval('registro_id_seq');")->queryAll()[0]['nextval'];
-            $reg->cantidad = $model->cantidad_actual;
-            $reg->fecha = date('Y-m-d');
-            $reg->estado = 0;
-            $reg->producto_id = $model->id;
-            $reg->tipo_r_id = 1;
-            $reg->cliente_id = 1;
-            $reg->precio_venta = $model->precio_unit;
-            $reg->precio_costo = $model->costo_unit;
-            if(!$reg->save()){
-                print_r($reg->getErrors());
-                die;
-            };
+            $model->id = Yii::$app->db2->createCommand("SELECT nextval('proveedor_id_seq');")->queryAll()[0]['nextval'];
 
             $bit = new Bitacora();
             $bit->id = Yii::$app->db2->createCommand("SELECT nextval('bitacora_id_seq');")->queryAll()[0]['nextval'];
             $bit->fecha = date('Y-m-d');
-            $bit->descripcion = 'Insertar Producto: '.$model->nombre.', Y su primer registro.';
+            $bit->descripcion = 'Agregar Materia prima: '.$model->nombre.'.';
             if(!$bit->save()){
                 print_r($bit->getErrors());
                 die;
             };
 
 
+            if ($model->save()) {
                 echo "<script>window.history.back();</script>";
+                die;
+            }
         }
 
         return $this->renderAjax('create', [
@@ -150,7 +92,7 @@ FROM crosstab(
     }
 
     /**
-     * Updates an existing Producto model.
+     * Updates an existing MateriaPrima model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -161,11 +103,10 @@ FROM crosstab(
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-
             $bit = new Bitacora();
             $bit->id = Yii::$app->db2->createCommand("SELECT nextval('bitacora_id_seq');")->queryAll()[0]['nextval'];
             $bit->fecha = date('Y-m-d');
-            $bit->descripcion = 'Actualizar Producto: '.$model->nombre.'.';
+            $bit->descripcion = 'Actualizar Materia prima: '.$model->nombre.'.';
             if(!$bit->save()){
                 print_r($bit->getErrors());
                 die;
@@ -181,7 +122,7 @@ FROM crosstab(
     }
 
     /**
-     * Deletes an existing Producto model.
+     * Deletes an existing MateriaPrima model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -189,33 +130,30 @@ FROM crosstab(
      */
     public function actionDelete($id)
     {
-        //$this->findModel($id)->delete();
         $model = $this->findModel($id);
-        $model->estado = 1;
-        $model->save();
+        $this->findModel($id)->delete();
 
         $bit = new Bitacora();
         $bit->id = Yii::$app->db2->createCommand("SELECT nextval('bitacora_id_seq');")->queryAll()[0]['nextval'];
         $bit->fecha = date('Y-m-d');
-        $bit->descripcion = 'Eliminar Producto: '.$model->nombre.'.';
+        $bit->descripcion = 'Eliminar Materia prima: '.$model->nombre.'.';
         if(!$bit->save()){
             print_r($bit->getErrors());
             die;
         };
-
         echo "<script>window.history.back();</script>";
     }
 
     /**
-     * Finds the Producto model based on its primary key value.
+     * Finds the MateriaPrima model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Producto the loaded model
+     * @return MateriaPrima the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Producto::findOne($id)) !== null) {
+        if (($model = MateriaPrima::findOne($id)) !== null) {
             return $model;
         }
 

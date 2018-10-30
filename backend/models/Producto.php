@@ -9,11 +9,12 @@ use Yii;
  *
  * @property int $id
  * @property string $nombre
- * @property string $precio
+ * @property string $precio_unit
  * @property int $cantidad_actual
  * @property int $estado
  * @property string $observaciones
  * @property int $category_id
+ * @property string $costo_unit
  *
  * @property CategoriaP $category
  * @property Registro[] $registros
@@ -42,10 +43,10 @@ class Producto extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'precio', 'category_id'], 'required'],
+            [['id', 'precio_unit', 'category_id'], 'required'],
             [['id', 'cantidad_actual', 'estado', 'category_id'], 'default', 'value' => null],
             [['id', 'cantidad_actual', 'estado', 'category_id'], 'integer'],
-            [['precio'], 'number'],
+            [['precio_unit', 'costo_unit'], 'number'],
             [['observaciones'], 'string'],
             [['nombre'], 'string', 'max' => 45],
             [['id'], 'unique'],
@@ -61,11 +62,12 @@ class Producto extends \yii\db\ActiveRecord
         return [
             'id' => Yii::t('app', 'ID'),
             'nombre' => Yii::t('app', 'Nombre'),
-            'precio' => Yii::t('app', 'Precio'),
+            'precio_unit' => Yii::t('app', 'Precio Unitario'),
             'cantidad_actual' => Yii::t('app', 'Cantidad Actual'),
             'estado' => Yii::t('app', 'Estado'),
             'observaciones' => Yii::t('app', 'Observaciones'),
-            'category_id' => Yii::t('app', 'Category ID'),
+            'category_id' => Yii::t('app', 'Categoría'),
+            'costo_unit' => Yii::t('app', 'Costo Unitario'),
         ];
     }
 

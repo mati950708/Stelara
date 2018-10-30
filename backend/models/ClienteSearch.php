@@ -5,12 +5,12 @@ namespace backend\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\models\ProductHasUser;
+use backend\models\Cliente;
 
 /**
- * ProductHasUserSearch represents the model behind the search form of `backend\models\ProductHasUser`.
+ * ClienteSearch represents the model behind the search form of `backend\models\Cliente`.
  */
-class ProductHasUserSearch extends ProductHasUser
+class ClienteSearch extends Cliente
 {
     /**
      * {@inheritdoc}
@@ -18,8 +18,8 @@ class ProductHasUserSearch extends ProductHasUser
     public function rules()
     {
         return [
-            [['idphu', 'product_idproduct', 'user_id', 'piezasProducidas', 'piezasVendidas', 'piezasMerma', 'situation_idsituation', 'shop_idshop', 'feriado_idferiado'], 'integer'],
-            [['date'], 'safe'],
+            [['id', 'telefono', 'estado'], 'integer'],
+            [['nombre', 'apaterno', 'amaterno', 'direccion', 'observaciones'], 'safe'],
         ];
     }
 
@@ -41,7 +41,7 @@ class ProductHasUserSearch extends ProductHasUser
      */
     public function search($params)
     {
-        $query = ProductHasUser::find();
+        $query = Cliente::find();
 
         // add conditions that should always apply here
 
@@ -59,17 +59,16 @@ class ProductHasUserSearch extends ProductHasUser
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'idphu' => $this->idphu,
-            'product_idproduct' => $this->product_idproduct,
-            'user_id' => $this->user_id,
-            'piezasProducidas' => $this->piezasProducidas,
-            'piezasVendidas' => $this->piezasVendidas,
-            'piezasMerma' => $this->piezasMerma,
-            'date' => $this->date,
-            'situation_idsituation' => $this->situation_idsituation,
-            'shop_idshop' => $this->shop_idshop,
-            'feriado_idferiado' => $this->feriado_idferiado,
+            'id' => $this->id,
+            'telefono' => $this->telefono,
+            'estado' => $this->estado,
         ]);
+
+        $query->andFilterWhere(['ilike', 'nombre', $this->nombre])
+            ->andFilterWhere(['ilike', 'apaterno', $this->apaterno])
+            ->andFilterWhere(['ilike', 'amaterno', $this->amaterno])
+            ->andFilterWhere(['ilike', 'direccion', $this->direccion])
+            ->andFilterWhere(['ilike', 'observaciones', $this->observaciones]);
 
         return $dataProvider;
     }

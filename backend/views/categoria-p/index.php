@@ -28,15 +28,15 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <p>
         <?= Html::button(Yii::t('app', 'Crear Categoría'), ['value' => 'index.php?r=categoria-p/create', 'class' => 'modalButtonCreate']) ?>
-        <?= Html::a(Yii::t('app', 'Generar reporte'), ['report'], ['class' => 'btn btn-success']) ?>
+      <!-- <?= Html::a(Yii::t('app', 'Generar reporte'), ['report'], ['class' => 'btn btn-success']) ?>-->
     </p>
 
-    <?php // echo $this->render('_search', ['model' => $searchModel]); 
+    <?php // echo $this->render('_search', ['model' => $searchModel]);
     $columns = [
             ['class' => 'yii\grid\SerialColumn'],
 
             'nombre',
-            [
+/*            [
                 'attribute' => 'estado',
                     'filterType'=>GridView::FILTER_SELECT2,
                     'filter'=>ArrayHelper::map([['id' => 0, 'nombre' => 'Activo'],['id' => 1, 'nombre' => 'Inactivo'] ], 'id', 'nombre'),
@@ -51,7 +51,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         return "Inactivo";
                     }
                     },                    
-            ],
+            ],*/
 
         ];
 
@@ -72,7 +72,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'nombre',
-            [
+/*            [
                 'attribute' => 'estado',
                     'filterType'=>GridView::FILTER_SELECT2,
                     'filter'=>ArrayHelper::map([['id' => 0, 'nombre' => 'Activo'],['id' => 1, 'nombre' => 'Inactivo'] ], 'id', 'nombre'),
@@ -87,7 +87,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         return "Inactivo";
                     }
                     },                    
-            ],
+            ],*/
                 ['class' => 'yii\grid\ActionColumn',
                     'template' => '{view}{update}{delete}',
                     'buttons' => [

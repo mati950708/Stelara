@@ -5,12 +5,12 @@ namespace backend\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\models\Category;
+use backend\models\MateriaPrima;
 
 /**
- * CategorySearch represents the model behind the search form of `backend\models\Category`.
+ * MateriaPrimaSearch represents the model behind the search form of `backend\models\MateriaPrima`.
  */
-class CategorySearch extends Category
+class MateriaPrimaSearch extends MateriaPrima
 {
     /**
      * {@inheritdoc}
@@ -18,8 +18,8 @@ class CategorySearch extends Category
     public function rules()
     {
         return [
-            [['idcategory'], 'integer'],
-            [['name'], 'safe'],
+            [['id', 'proveedor_id'], 'integer'],
+            [['nombre', 'descripcion', 'observaciones'], 'safe'],
         ];
     }
 
@@ -41,7 +41,7 @@ class CategorySearch extends Category
      */
     public function search($params)
     {
-        $query = Category::find();
+        $query = MateriaPrima::find();
 
         // add conditions that should always apply here
 
@@ -59,10 +59,13 @@ class CategorySearch extends Category
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'idcategory' => $this->idcategory,
+            'id' => $this->id,
+            'proveedor_id' => $this->proveedor_id,
         ]);
 
-        $query->andFilterWhere(['like', 'name', $this->name]);
+        $query->andFilterWhere(['ilike', 'nombre', $this->nombre])
+            ->andFilterWhere(['ilike', 'descripcion', $this->descripcion])
+            ->andFilterWhere(['ilike', 'observaciones', $this->observaciones]);
 
         return $dataProvider;
     }

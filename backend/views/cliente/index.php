@@ -2,33 +2,37 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use yii\helpers\Url;
 use kartik\export\ExportMenu;
+use yii\helpers\Url;
+
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\models\ProductoSearch */
+/* @var $searchModel backend\models\ClienteSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('app', 'Productos');
+$this->title = Yii::t('app', 'Clientes');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="producto-index">
+<div class="cliente-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::button(Yii::t('app', 'Crear Producto'), ['value' => 'index.php?r=producto/create', 'class' => 'modalButtonCreate']) ?>
+        <?= Html::button(Yii::t('app', 'Crear Cliente'), ['value' => 'index.php?r=cliente/create', 'class' => 'modalButtonCreate']) ?>
     </p>
+
     <?php
 
     echo ExportMenu::widget([
         'dataProvider' => $dataProvider,
         'columns' =>[
             'nombre',
-            'precio_unit',
-            'costo_unit',
-        'cantidad_actual'],
+            'apaterno',
+            'amaterno',
+            'telefono',
+            'direccion',
+            'observaciones'],
         'exportConfig' => [
             ExportMenu::FORMAT_TEXT => false,
             ExportMenu::FORMAT_HTML => false,
@@ -36,9 +40,11 @@ $this->params['breadcrumbs'][] = $this->title;
 //                    ExportMenu::FORMAT_EXCEL => false
         ],
         'filename' => 'Reporte_'.date('d-m-Y'),
+
     ]);
 
     ?>
+
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -47,29 +53,29 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'nombre',
-            'precio_unit',
-            'costo_unit',
-            'cantidad_actual',
+            'apaterno',
+            'amaterno',
+            'telefono',
+            //'direccion:ntext',
             //'observaciones:ntext',
-            //'category_id',
 
             ['class' => 'yii\grid\ActionColumn',
                 'template' => '{view}{update}{delete}',
                 'buttons' => [
                     'view' => function ($url, $model) {
-                        return Html::button('<span class="glyphicon glyphicon-eye-open"></span>', ['value' => Url::to('index.php?r=producto%2Fview&id='.$model->id), 'class' => 'modalButtonView'], [
+                        return Html::button('<span class="glyphicon glyphicon-eye-open"></span>', ['value' => Url::to('index.php?r=cliente%2Fview&id='.$model->id), 'class' => 'modalButtonView'], [
                             'title' => Yii::t('app', 'View'),
                         ]);
                     },
 
                     'update' => function ($url, $model) {
-                        return Html::button('<span class="glyphicon glyphicon-pencil"></span>', ['value' => Url::to('index.php?r=producto%2Fupdate&id='.$model->id), 'class' => 'modalButtonEdit'], [
+                        return Html::button('<span class="glyphicon glyphicon-pencil"></span>', ['value' => Url::to('index.php?r=cliente%2Fupdate&id='.$model->id), 'class' => 'modalButtonEdit'], [
                             'title' => Yii::t('app', 'Update'),
                         ]);
                     },
 
                     'delete' => function ($url, $model) {
-                        return Html::a('<span class="glyphicon glyphicon-trash"></span>', 'index.php?r=producto/delete&id='.$model->id, [
+                        return Html::a('<span class="glyphicon glyphicon-trash"></span>', 'index.php?r=cliente/delete&id='.$model->id, [
                             'data-method' => 'POST',
                             'title' => Yii::t('app', 'Update'),
                             'data-confirm' => "¿Está seguro que desea eliminar esta categoría?",

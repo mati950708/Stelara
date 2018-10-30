@@ -5,12 +5,12 @@ namespace backend\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\models\Situation;
+use backend\models\Bitacora;
 
 /**
- * SituationSearch represents the model behind the search form of `backend\models\Situation`.
+ * BitacoraSearch represents the model behind the search form of `backend\models\Bitacora`.
  */
-class SituationSearch extends Situation
+class BitacoraSearch extends Bitacora
 {
     /**
      * {@inheritdoc}
@@ -18,8 +18,8 @@ class SituationSearch extends Situation
     public function rules()
     {
         return [
-            [['idsituation'], 'integer'],
-            [['situation'], 'safe'],
+            [['id'], 'integer'],
+            [['fecha', 'descripcion', 'producto'], 'safe'],
         ];
     }
 
@@ -41,7 +41,7 @@ class SituationSearch extends Situation
      */
     public function search($params)
     {
-        $query = Situation::find();
+        $query = Bitacora::find();
 
         // add conditions that should always apply here
 
@@ -59,10 +59,12 @@ class SituationSearch extends Situation
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'idsituation' => $this->idsituation,
+            'id' => $this->id,
+            'fecha' => $this->fecha,
         ]);
 
-        $query->andFilterWhere(['like', 'situation', $this->situation]);
+        $query->andFilterWhere(['ilike', 'descripcion', $this->descripcion])
+            ->andFilterWhere(['ilike', 'producto', $this->producto]);
 
         return $dataProvider;
     }

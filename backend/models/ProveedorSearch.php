@@ -5,12 +5,12 @@ namespace backend\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\models\Feriado;
+use backend\models\Proveedor;
 
 /**
- * FeriadoSearch represents the model behind the search form of `backend\models\Feriado`.
+ * ProveedorSearch represents the model behind the search form of `backend\models\Proveedor`.
  */
-class FeriadoSearch extends Feriado
+class ProveedorSearch extends Proveedor
 {
     /**
      * {@inheritdoc}
@@ -18,8 +18,8 @@ class FeriadoSearch extends Feriado
     public function rules()
     {
         return [
-            [['idferiado'], 'integer'],
-            [['feriado'], 'safe'],
+            [['id', 'telefono'], 'integer'],
+            [['nombre', 'direccion', 'observaciones'], 'safe'],
         ];
     }
 
@@ -41,7 +41,7 @@ class FeriadoSearch extends Feriado
      */
     public function search($params)
     {
-        $query = Feriado::find();
+        $query = Proveedor::find();
 
         // add conditions that should always apply here
 
@@ -59,10 +59,13 @@ class FeriadoSearch extends Feriado
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'idferiado' => $this->idferiado,
+            'id' => $this->id,
+            'telefono' => $this->telefono,
         ]);
 
-        $query->andFilterWhere(['like', 'feriado', $this->feriado]);
+        $query->andFilterWhere(['ilike', 'nombre', $this->nombre])
+            ->andFilterWhere(['ilike', 'direccion', $this->direccion])
+            ->andFilterWhere(['ilike', 'observaciones', $this->observaciones]);
 
         return $dataProvider;
     }
