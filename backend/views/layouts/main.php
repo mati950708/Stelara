@@ -57,10 +57,10 @@ Modal::end();
 <body>
 <?php $this->beginBody() ?>
 
-<div clavss="wrap">
+<div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'Levainco',
+        'brandLabel' => 'Stelara',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -68,28 +68,23 @@ Modal::end();
     ]);
     $menuItems = [
         $rol == "Administrador"?
-            ['label' => 'Home', 'url' => ['/site/index']]:'',
+            ['label' => 'Inicio', 'url' => ['/site/index']]:'',
         $rol == "Administrador"?
-            ['label' => 'Create user', 'url' => ['/product-has-user/user']]:'',
+            ['label' => 'Registros', 'url' => ['/registro']]:'',
         $rol == "Administrador"?
-        ['label' => 'Roles', 'url' => ['/rbac']]:'',
+            ['label' => 'Clientes', 'url' => ['/cliente']]:'',
         $rol == "Administrador"?
-        ['label' => 'Products', 'items' => [
-            ['label' => 'View Products', 'url' => ['/product']],
-            ['label' => 'View Categories', 'url' => ['/category']]
-        ],
-        ]:'',
+            ['label' => 'Productos', 'items' => [
+                ['label' => 'Ver Productos', 'url' => ['/producto']],
+                ['label' => 'Ver Categoría de producto', 'url' => ['/categoria-p']]
+            ],
+            ]:'',
         $rol == "Administrador"?
-        ['label' => 'Shops', 'url' => ['/shop']]:'',
-        $rol == "Administrador"?
-        ['label' => 'Day work', 'items' => [
-            ['label' => 'Work', 'url' => ['/product-has-user']],
-            ['label' => 'Situations', 'url' => ['/situation']],
-            ['label' => 'Feriado', 'url' => ['/feriado']]
-        ],
-        ]:'',
-        $rol == "Trabajador"?
-                ['label' => 'Work', 'url' => ['/product-has-user']]:'',
+            ['label' => 'Proveedor', 'items' => [
+                ['label' => 'Ver Proveedores', 'url' => ['/proveedor']],
+                ['label' => 'Ver Materias prima', 'url' => ['/materia-prima']]
+            ],
+            ]:'',
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
@@ -124,9 +119,9 @@ Modal::end();
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; Levicon <?= date('Y') ?></p>
+        <p class="pull-left">&copy; Stelara <?= date('Y') ?></p>
 
-        <a href="#"><p class="pull-right">Need help?</p></a>
+        <p class="pull-right"><img src="http://www.itses.edu.mx/img/logo2.png" height="35px" style="margin-top: -10px;" alt=""></p>
     </div>
 </footer>
 
