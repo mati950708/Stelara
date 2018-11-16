@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\MateriaPrima */
 
-$this->title = Yii::t('app', 'Update Materia Prima: ' . $model->id, [
+$this->title = Yii::t('app', 'Update Materia Prima: ' . $model->nombre, [
     'nameAttribute' => '' . $model->id,
 ]);
 $this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Materia Primas'), 'url' => ['index']];

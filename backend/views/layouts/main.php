@@ -76,7 +76,9 @@ Modal::end();
         $rol == "Administrador"?
             ['label' => 'Productos', 'items' => [
                 ['label' => 'Ver Productos', 'url' => ['/producto']],
-                ['label' => 'Ver Categoría de producto', 'url' => ['/categoria-p']]
+                ['label' => 'Ver Categoría de producto', 'url' => ['/categoria-p']],
+                ['label' => 'Ver Productos por Categoría', 'url' => ['/producto/registro']],
+                ['label' => 'Ver Productos por una Categoría', 'url' => ['/producto/registro-unico']]
             ],
             ]:'',
         $rol == "Administrador"?

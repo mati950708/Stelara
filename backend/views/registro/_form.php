@@ -42,7 +42,7 @@ use dosamigos\datepicker\DatePicker;
             </div>
             <div class="col-lg-4">
                 <?= $form->field($model, 'producto_id')->dropDownList(
-                    \yii\helpers\ArrayHelper::map(\backend\models\Producto::find()->all(), 'id', 'nombre'),
+                    \yii\helpers\ArrayHelper::map(\backend\models\Producto::find()->andFilterWhere(['=', 'estado', '0'])->andFilterWhere(['>', 'cantidad_actual', '0'])->all(), 'id', 'nombre'),
                     [
                         'prompt' => 'Elige el producto'
                     ]

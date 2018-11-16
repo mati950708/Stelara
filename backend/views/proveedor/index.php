@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\helpers\Url;
+use kartik\export\ExportMenu;
 
 /* @var $this yii\web\View */
 /* @var $searchModel backend\models\ProveedorSearch */
@@ -19,6 +20,25 @@ $this->params['breadcrumbs'][] = $this->title;
     <p>
         <?= Html::button(Yii::t('app', 'Crear Proveedor'), ['value' => 'index.php?r=proveedor/create', 'class' => 'modalButtonCreate']) ?>
     </p>
+    <?php
+
+    echo ExportMenu::widget([
+        'dataProvider' => $dataProvider,
+        'columns' =>[
+            'nombre',
+            'telefono',
+            'direccion:ntext',
+            'observaciones:ntext'],
+        'exportConfig' => [
+            ExportMenu::FORMAT_TEXT => false,
+            ExportMenu::FORMAT_HTML => false,
+            ExportMenu::FORMAT_EXCEL_X => false,
+//                    ExportMenu::FORMAT_EXCEL => false
+        ],
+        'filename' => 'Reporte_'.date('d-m-Y'),
+    ]);
+
+    ?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -49,7 +69,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         return Html::a('<span class="glyphicon glyphicon-trash"></span>', 'index.php?r=proveedor/delete&id='.$model->id, [
                             'data-method' => 'POST',
                             'title' => Yii::t('app', 'Update'),
-                            'data-confirm' => "¿Está seguro que desea eliminar esta categoría?",
+                            'data-confirm' => "¿Está seguro que desea eliminar este proveedor?",
                             'role' => 'button',
                             'class' => 'modalButtonDelete',
                         ]);
