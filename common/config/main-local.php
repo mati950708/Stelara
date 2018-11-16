@@ -9,14 +9,15 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'pgsql:host=localhost;dbname=Stelara_users',
+//            'dsn' => 'pgsql:host=localhost;dbname=Stelara_users',
+            'dsn' => 'pgsql:host=localhost;port=5432;dbname=Stelara_users',
             'username' => 'postgres',
             'password' => 'postgres',
             'charset' => 'utf8',
         ],
         'db2' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'pgsql:host=localhost;dbname=Stelara',
+            'dsn' => 'pgsql:host=localhost;port=5432;dbname=Stelara',
             'username' => 'postgres',
             'password' => 'postgres',
             'charset' => 'utf8',
