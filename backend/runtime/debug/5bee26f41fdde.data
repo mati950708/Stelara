@@ -1,0 +1,1197 @@
+a:13:{s:6:"config";s:12747:"a:5:{s:10:"phpVersion";s:5:"7.2.4";s:10:"yiiVersion";s:8:"2.0.15.1";s:11:"application";a:8:{s:3:"yii";s:8:"2.0.15.1";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:5:"7.2.4";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:52:{s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.8.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-bootstrap/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:61:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-faker";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:63:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-gii/src";}}s:16:"yiisoft/yii2-jui";a:3:{s:4:"name";s:16:"yiisoft/yii2-jui";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:8:"@yii/jui";s:59:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-jui";}}s:34:"nerburish/yii2-daterange-validator";a:3:{s:4:"name";s:34:"nerburish/yii2-daterange-validator";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:29:"@nerburish/daterangevalidator";s:77:"C:\xampp\htdocs\postgrestry\Stelara\vendor/nerburish/yii2-daterange-validator";}}s:26:"creocoder/yii2-nested-sets";a:3:{s:4:"name";s:26:"creocoder/yii2-nested-sets";s:7:"version";s:7:"0.9.0.0";s:5:"alias";a:1:{s:21:"@creocoder/nestedsets";s:73:"C:\xampp\htdocs\postgrestry\Stelara\vendor/creocoder/yii2-nested-sets/src";}}s:33:"2amigos/yii2-arrayquery-component";a:3:{s:4:"name";s:33:"2amigos/yii2-arrayquery-component";s:7:"version";s:7:"1.0.3.0";s:5:"alias";a:1:{s:21:"@dosamigos/arrayquery";s:80:"C:\xampp\htdocs\postgrestry\Stelara\vendor/2amigos/yii2-arrayquery-component/src";}}s:17:"yii2mod/yii2-rbac";a:3:{s:4:"name";s:17:"yii2mod/yii2-rbac";s:7:"version";s:7:"2.3.0.0";s:5:"alias";a:1:{s:13:"@yii2mod/rbac";s:60:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yii2mod/yii2-rbac";}}s:43:"2amigos/yii2-bootstrap-form-helpers-library";a:3:{s:4:"name";s:43:"2amigos/yii2-bootstrap-form-helpers-library";s:7:"version";s:7:"0.1.1.0";s:5:"alias";a:1:{s:22:"@dosamigos/formhelpers";s:86:"C:\xampp\htdocs\postgrestry\Stelara\vendor/2amigos/yii2-bootstrap-form-helpers-library";}}s:36:"2amigos/yii2-date-time-picker-widget";a:3:{s:4:"name";s:36:"2amigos/yii2-date-time-picker-widget";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:25:"@dosamigos/datetimepicker";s:83:"C:\xampp\htdocs\postgrestry\Stelara\vendor/2amigos/yii2-date-time-picker-widget/src";}}s:31:"2amigos/yii2-date-picker-widget";a:3:{s:4:"name";s:31:"2amigos/yii2-date-picker-widget";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:21:"@dosamigos/datepicker";s:78:"C:\xampp\htdocs\postgrestry\Stelara\vendor/2amigos/yii2-date-picker-widget/src";}}s:31:"kartik-v/yii2-widget-timepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-timepicker";s:7:"version";s:7:"1.0.3.0";s:5:"alias";a:1:{s:12:"@kartik/time";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-timepicker";}}s:32:"kartik-v/yii2-widget-switchinput";a:3:{s:4:"name";s:32:"kartik-v/yii2-widget-switchinput";s:7:"version";s:7:"1.3.1.0";s:5:"alias";a:1:{s:19:"@kartik/switchinput";s:75:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-switchinput";}}s:28:"kartik-v/yii2-widget-spinner";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-spinner";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:15:"@kartik/spinner";s:71:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-spinner";}}s:28:"kartik-v/yii2-widget-sidenav";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-sidenav";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:15:"@kartik/sidenav";s:71:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-sidenav";}}s:26:"kartik-v/yii2-widget-growl";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-growl";s:7:"version";s:7:"1.1.1.0";s:5:"alias";a:1:{s:13:"@kartik/growl";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-growl";}}s:28:"kartik-v/yii2-widget-depdrop";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-depdrop";s:7:"version";s:7:"1.0.4.0";s:5:"alias";a:1:{s:15:"@kartik/depdrop";s:71:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-depdrop";}}s:26:"kartik-v/yii2-widget-alert";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-alert";s:7:"version";s:7:"1.1.1.0";s:5:"alias";a:1:{s:13:"@kartik/alert";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-alert";}}s:26:"kartik-v/yii2-widget-affix";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-affix";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:13:"@kartik/affix";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-affix";}}s:21:"kartik-v/yii2-widgets";a:3:{s:4:"name";s:21:"kartik-v/yii2-widgets";s:7:"version";s:7:"3.4.0.0";s:5:"alias";a:1:{s:15:"@kartik/widgets";s:64:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widgets";}}s:40:"mootensai/yii2-optimistic-lock-validator";a:3:{s:4:"name";s:40:"mootensai/yii2-optimistic-lock-validator";s:7:"version";s:7:"0.0.1.0";s:5:"alias";a:1:{s:21:"@mootensai/components";s:83:"C:\xampp\htdocs\postgrestry\Stelara\vendor/mootensai/yii2-optimistic-lock-validator";}}s:21:"kartik-v/yii2-builder";a:3:{s:4:"name";s:21:"kartik-v/yii2-builder";s:7:"version";s:7:"1.6.3.0";s:5:"alias";a:1:{s:15:"@kartik/builder";s:64:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-builder";}}s:22:"mootensai/yii2-jsblock";a:3:{s:4:"name";s:22:"mootensai/yii2-jsblock";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:21:"@mootensai/components";s:65:"C:\xampp\htdocs\postgrestry\Stelara\vendor/mootensai/yii2-jsblock";}}s:29:"mootensai/yii2-relation-trait";a:3:{s:4:"name";s:29:"mootensai/yii2-relation-trait";s:7:"version";s:7:"1.1.8.0";s:5:"alias";a:1:{s:19:"@mootensai/relation";s:72:"C:\xampp\htdocs\postgrestry\Stelara\vendor/mootensai/yii2-relation-trait";}}s:27:"mootensai/yii2-enhanced-gii";a:4:{s:4:"name";s:27:"mootensai/yii2-enhanced-gii";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:22:"@mootensai/enhancedgii";s:70:"C:\xampp\htdocs\postgrestry\Stelara\vendor/mootensai/yii2-enhanced-gii";}s:9:"bootstrap";s:31:"mootensai\enhancedgii\Bootstrap";}s:34:"edofre/yii2-fullcalendar-scheduler";a:3:{s:4:"name";s:34:"edofre/yii2-fullcalendar-scheduler";s:7:"version";s:8:"1.1.12.0";s:5:"alias";a:1:{s:29:"@edofre/fullcalendarscheduler";s:81:"C:\xampp\htdocs\postgrestry\Stelara\vendor/edofre/yii2-fullcalendar-scheduler/src";}}s:23:"kartik-v/yii2-popover-x";a:3:{s:4:"name";s:23:"kartik-v/yii2-popover-x";s:7:"version";s:7:"1.3.4.0";s:5:"alias";a:1:{s:15:"@kartik/popover";s:66:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-popover-x";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.1.2.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:71:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-swiftmailer/src";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"1.9.9.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:72:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-krajee-base/src";}}s:20:"kartik-v/yii2-dialog";a:3:{s:4:"name";s:20:"kartik-v/yii2-dialog";s:7:"version";s:7:"1.0.4.0";s:5:"alias";a:1:{s:14:"@kartik/dialog";s:67:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-dialog/src";}}s:28:"kartik-v/yii2-widget-select2";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-select2";s:7:"version";s:7:"2.1.3.0";s:5:"alias";a:1:{s:15:"@kartik/select2";s:75:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-select2/src";}}s:31:"kartik-v/yii2-widget-activeform";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-activeform";s:7:"version";s:7:"1.5.7.0";s:5:"alias";a:1:{s:12:"@kartik/form";s:78:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-activeform/src";}}s:22:"kartik-v/yii2-sortable";a:3:{s:4:"name";s:22:"kartik-v/yii2-sortable";s:7:"version";s:7:"1.2.1.0";s:5:"alias";a:1:{s:16:"@kartik/sortable";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-sortable/src";}}s:22:"kartik-v/yii2-dynagrid";a:3:{s:4:"name";s:22:"kartik-v/yii2-dynagrid";s:7:"version";s:7:"1.5.0.0";s:5:"alias";a:1:{s:16:"@kartik/dynagrid";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-dynagrid/src";}}s:20:"kartik-v/yii2-export";a:3:{s:4:"name";s:20:"kartik-v/yii2-export";s:7:"version";s:7:"1.3.2.0";s:5:"alias";a:1:{s:14:"@kartik/export";s:67:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-export/src";}}s:22:"kartik-v/yii2-editable";a:3:{s:4:"name";s:22:"kartik-v/yii2-editable";s:7:"version";s:7:"1.7.8.0";s:5:"alias";a:1:{s:16:"@kartik/editable";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-editable/src";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.0.14.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:65:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-debug/src";}}s:20:"kartik-v/yii2-tabs-x";a:3:{s:4:"name";s:20:"kartik-v/yii2-tabs-x";s:7:"version";s:7:"1.2.7.0";s:5:"alias";a:1:{s:12:"@kartik/tabs";s:67:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-tabs-x/src";}}s:21:"kartik-v/yii2-helpers";a:3:{s:4:"name";s:21:"kartik-v/yii2-helpers";s:7:"version";s:7:"1.3.8.0";s:5:"alias";a:1:{s:15:"@kartik/helpers";s:68:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-helpers/src";}}s:31:"kartik-v/yii2-widget-colorinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-colorinput";s:7:"version";s:7:"1.0.5.0";s:5:"alias";a:1:{s:13:"@kartik/color";s:78:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-colorinput/src";}}s:31:"kartik-v/yii2-widget-datepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-datepicker";s:7:"version";s:7:"1.4.6.0";s:5:"alias";a:1:{s:12:"@kartik/date";s:78:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-datepicker/src";}}s:35:"kartik-v/yii2-widget-datetimepicker";a:3:{s:4:"name";s:35:"kartik-v/yii2-widget-datetimepicker";s:7:"version";s:7:"1.4.7.0";s:5:"alias";a:1:{s:16:"@kartik/datetime";s:82:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-datetimepicker/src";}}s:30:"kartik-v/yii2-widget-fileinput";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-fileinput";s:7:"version";s:7:"1.0.8.0";s:5:"alias";a:1:{s:12:"@kartik/file";s:77:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-fileinput/src";}}s:31:"kartik-v/yii2-widget-rangeinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-rangeinput";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:13:"@kartik/range";s:78:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-rangeinput/src";}}s:27:"kartik-v/yii2-widget-rating";a:3:{s:4:"name";s:27:"kartik-v/yii2-widget-rating";s:7:"version";s:7:"1.0.4.0";s:5:"alias";a:1:{s:14:"@kartik/rating";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-rating/src";}}s:30:"kartik-v/yii2-widget-touchspin";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-touchspin";s:7:"version";s:7:"1.2.3.0";s:5:"alias";a:1:{s:17:"@kartik/touchspin";s:77:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-touchspin/src";}}s:30:"kartik-v/yii2-widget-typeahead";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-typeahead";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:17:"@kartik/typeahead";s:77:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-typeahead/src";}}s:24:"kartik-v/yii2-date-range";a:3:{s:4:"name";s:24:"kartik-v/yii2-date-range";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:17:"@kartik/daterange";s:71:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-date-range/src";}}s:25:"kartik-v/yii2-datecontrol";a:3:{s:4:"name";s:25:"kartik-v/yii2-datecontrol";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:19:"@kartik/datecontrol";s:72:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-datecontrol/src";}}s:18:"kartik-v/yii2-grid";a:3:{s:4:"name";s:18:"kartik-v/yii2-grid";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/grid";s:65:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-grid/src";}}s:18:"kartik-v/yii2-mpdf";a:3:{s:4:"name";s:18:"kartik-v/yii2-mpdf";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/mpdf";s:65:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-mpdf/src";}}s:26:"kartik-v/yii2-tree-manager";a:3:{s:4:"name";s:26:"kartik-v/yii2-tree-manager";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/tree";s:73:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-tree-manager/src";}}}}";s:7:"request";s:7577:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:9:{s:4:"host";s:9:"localhost";s:10:"connection";s:10:"keep-alive";s:13:"cache-control";s:9:"max-age=0";s:25:"upgrade-insecure-requests";s:1:"1";s:10:"user-agent";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36";s:6:"accept";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:15:"accept-language";s:27:"es-US,es-419;q=0.9,es;q=0.8";s:6:"cookie";s:698:"_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=re56isbcv5ap9fcl1k1q2e0odj; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=066bb26a5cb98ae3309c359e629f8ab58a9434a2d7a12282da821f16f1de5a4da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%223y6gyjwCDqFnglpmfOWlzKQbqBR7GFKD%22%3B%7D";}s:15:"responseHeaders";a:9:{s:12:"X-Powered-By";s:9:"PHP/7.2.4";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"5bee26f41fdde";s:16:"X-Debug-Duration";s:5:"3,265";s:12:"X-Debug-Link";s:85:"/postgrestry/stelara/backend/web/index.php?r=debug%2Fdefault%2Fview&tag=5bee26f41fdde";s:10:"Set-Cookie";s:297:"_identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; expires=Sun, 16-Dec-2018 02:09:56 GMT; Max-Age=2591997; path=/; HttpOnly";}s:5:"route";s:23:"producto/registro-unico";s:6:"action";s:61:"backend\controllers\ProductoController::actionRegistroUnico()";s:12:"actionParams";a:0:{}s:7:"general";a:5:{s:6:"method";s:3:"GET";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:0:{}s:6:"SERVER";a:42:{s:7:"MIBDIRS";s:24:"C:/xampp/php/extras/mibs";s:10:"MYSQL_HOME";s:16:"\xampp\mysql\bin";s:12:"OPENSSL_CONF";s:31:"C:/xampp/apache/bin/openssl.cnf";s:20:"PHP_PEAR_SYSCONF_DIR";s:10:"\xampp\php";s:5:"PHPRC";s:10:"\xampp\php";s:3:"TMP";s:10:"\xampp\tmp";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36";s:11:"HTTP_ACCEPT";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:20:"HTTP_ACCEPT_LANGUAGE";s:27:"es-US,es-419;q=0.9,es;q=0.8";s:11:"HTTP_COOKIE";s:698:"_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=re56isbcv5ap9fcl1k1q2e0odj; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=066bb26a5cb98ae3309c359e629f8ab58a9434a2d7a12282da821f16f1de5a4da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%223y6gyjwCDqFnglpmfOWlzKQbqBR7GFKD%22%3B%7D";s:4:"PATH";s:1456:"C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\xampp\php;C:\composer;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;"C:\Program Files\Java\jre6\bin;F:\JDK\bin;";"C:\ProgramFiles\Java\jdk1.8.0_60\bin;C:\ProgramFiles\nodejs;C:\Gradle\gradle-4.0\bin;C:\ANDROID_SDK\tools;C:\WINDOWS\system32; C:\WINDOWS; C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32; C:\WINDOWS; C:\WINDOWS\System32\Wbem;";C:\Program Files\nodejs\;C:\Users\TuUsuario\AppData\Roaming\npm;angular-cli\bin;;C:\PostgreSQL\pg10\bin;C:\Ruby24-x64\bin;C:\Users\mati\AppData\Local\Microsoft\WindowsApps;C:\Users\mati\AppData\Roaming\Composer\vendor\bin;C:\Gradle\gradle-4.8.1\bin;"C:\Ruby23\bin;C:\Users\kumar\AppData\Roaming\npm;C:\ANDROID_SDK\tools;%SystemRo";C:\Users\mati\AppData\Roaming\npm";s:10:"SystemRoot";s:10:"C:\WINDOWS";s:7:"COMSPEC";s:27:"C:\WINDOWS\system32\cmd.exe";s:7:"PATHEXT";s:62:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW";s:6:"WINDIR";s:10:"C:\WINDOWS";s:16:"SERVER_SIGNATURE";s:94:"<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:46:"Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:12:"SERVER_ADMIN";s:20:"postmaster@localhost";s:15:"SCRIPT_FILENAME";s:57:"C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php";s:11:"REMOTE_PORT";s:5:"51071";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:27:"r=producto%2Fregistro-unico";s:11:"REQUEST_URI";s:70:"/postgrestry/stelara/backend/web/index.php?r=producto%2Fregistro-unico";s:11:"SCRIPT_NAME";s:42:"/postgrestry/stelara/backend/web/index.php";s:8:"PHP_SELF";s:42:"/postgrestry/stelara/backend/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1542334195.777;s:12:"REQUEST_TIME";i:1542334195;}s:3:"GET";a:1:{s:1:"r";s:23:"producto/registro-unico";}s:4:"POST";a:0:{}s:6:"COOKIE";a:5:{s:14:"_csrf-frontend";s:140:"e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:"_csrf-frontend";i:1;s:32:"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z";}";s:17:"advanced-frontend";s:26:"5u53t81o8o0opuafjhl7ctbodk";s:16:"advanced-backend";s:26:"re56isbcv5ap9fcl1k1q2e0odj";s:17:"_identity-backend";s:157:"5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:"_identity-backend";i:1;s:46:"[1,"N1uU0n6N47vYNBfWLuuruWneJh5332IO",2592000]";}";s:13:"_csrf-backend";s:139:"066bb26a5cb98ae3309c359e629f8ab58a9434a2d7a12282da821f16f1de5a4da:2:{i:0;s:13:"_csrf-backend";i:1;s:32:"3y6gyjwCDqFnglpmfOWlzKQbqBR7GFKD";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:3:{s:7:"__flash";a:0:{}s:11:"__returnUrl";s:42:"/postgrestry/stelara/backend/web/index.php";s:4:"__id";i:1;}}";s:3:"log";s:21827:"a:1:{s:8:"messages";a:29:{i:0;a:6:{i:0;s:59:"Bootstrap with mootensai\enhancedgii\Bootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1542334195.939531;i:4;a:0:{}i:5;i:2189216;}i:1;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1542334195.939539;i:4;a:0:{}i:5;i:2189752;}i:2;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1542334195.942776;i:4;a:0:{}i:5;i:2306584;}i:3;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1542334195.942792;i:4;a:0:{}i:5;i:2307168;}i:4;a:6:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1542334195.963172;i:4;a:0:{}i:5;i:3086224;}i:5;a:6:{i:0;s:64:"Opening DB connection: pgsql:host=localhost;dbname=Stelara_users";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1542334195.988785;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4175048;}i:8;a:6:{i:0;s:2527:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.03055;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4290064;}i:11;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.103485;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4323640;}i:14;a:6:{i:0;s:53:"SELECT * FROM "user" WHERE ("id"=1) AND ("status"=10)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.117212;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4630168;}i:17;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1542334196.129942;i:4;a:0:{}i:5;i:4974528;}i:18;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1542334196.131488;i:4;a:0:{}i:5;i:5056272;}i:20;a:6:{i:0;s:42:"Route requested: 'producto/registro-unico'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1542334196.131537;i:4;a:0:{}i:5;i:5057048;}i:21;a:6:{i:0;s:37:"Route to run: producto/registro-unico";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1542334196.164315;i:4;a:0:{}i:5;i:5132664;}i:22;a:6:{i:0;s:77:"Running action: backend\controllers\ProductoController::actionRegistroUnico()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1542334196.165498;i:4;a:0:{}i:5;i:5165376;}i:23;a:6:{i:0;s:18:"
+select cursor();
+";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.165556;i:4;a:1:{i:0;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:106;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:5170816;}i:24;a:6:{i:0;s:58:"Opening DB connection: pgsql:host=localhost;dbname=Stelara";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1542334196.165582;i:4;a:1:{i:0;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:106;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:5172552;}i:29;a:6:{i:0;s:92:"Rendering view file: C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1542334196.30941;i:4;a:1:{i:0;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5439696;}i:30;a:6:{i:0;s:49:"SELECT * FROM "producto" WHERE "category_id" = 12";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.518084;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5857680;}i:33;a:6:{i:0;s:2531:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'producto'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.518763;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5867616;}i:36;a:6:{i:0;s:876:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='producto'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.64874;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5875744;}i:39;a:6:{i:0;s:27:"SELECT * FROM "categoria_p"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.048426;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6189904;}i:42;a:6:{i:0;s:2534:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'categoria_p'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.049143;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6202296;}i:45;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='categoria_p'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.054463;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6208224;}i:48;a:6:{i:0;s:24:"Loading module: gridview";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1542334198.118719;i:4;a:3:{i:0;a:5:{s:4:"file";s:83:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-krajee-base\src\Config.php";s:4:"line";i:305;s:8:"function";s:9:"getModule";s:5:"class";s:15:"yii\base\Module";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:1450;s:8:"function";s:9:"getModule";s:5:"class";s:18:"kartik\base\Config";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:1060;s:8:"function";s:10:"initModule";s:5:"class";s:20:"kartik\grid\GridView";s:4:"type";s:2:"->";}}i:5;i:7661800;}i:49;a:6:{i:0;s:104:"Rendering view file: C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-export\src\views\_form.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1542334198.741918;i:4;a:3:{i:0;a:5:{s:4:"file";s:82:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-export\src\ExportMenu.php";s:4:"line";i:898;s:8:"function";s:6:"render";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:82:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-export\src\ExportMenu.php";s:4:"line";i:733;s:8:"function";s:16:"renderExportMenu";s:5:"class";s:24:"kartik\export\ExportMenu";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:70;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}}i:5;i:8247552;}i:50;a:6:{i:0;s:107:"Rendering view file: C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-export\src\views\_columns.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1542334198.879012;i:4;a:3:{i:0;a:5:{s:4:"file";s:82:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-export\src\ExportMenu.php";s:4:"line";i:966;s:8:"function";s:6:"render";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:82:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-export\src\ExportMenu.php";s:4:"line";i:938;s:8:"function";s:20:"renderColumnSelector";s:5:"class";s:24:"kartik\export\ExportMenu";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:82:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-export\src\ExportMenu.php";s:4:"line";i:733;s:8:"function";s:16:"renderExportMenu";s:5:"class";s:24:"kartik\export\ExportMenu";s:4:"type";s:2:"->";}}i:5;i:8326056;}i:51;a:6:{i:0;s:87:"Rendering view file: C:\xampp\htdocs\postgrestry\Stelara\backend\views\layouts\main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1542334198.927828;i:4;a:1:{i:0;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:8376776;}i:52;a:6:{i:0;s:134:"SELECT "b".* FROM "auth_assignment" "a", "auth_item" "b" WHERE ("a"."item_name"="b"."name") AND ("a"."user_id"='1') AND ("b"."type"=1)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334198.959604;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\layouts\main.php";s:4:"line";i:18;s:8:"function";s:14:"getRolesByUser";s:5:"class";s:18:"yii\rbac\DbManager";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:8584144;}i:55;a:6:{i:0;s:134:"SELECT "b".* FROM "auth_assignment" "a", "auth_item" "b" WHERE ("a"."item_name"="b"."name") AND ("a"."user_id"='1') AND ("b"."type"=1)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1542334199.045413;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\layouts\main.php";s:4:"line";i:24;s:8:"function";s:14:"getRolesByUser";s:5:"class";s:18:"yii\rbac\DbManager";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:8587664;}}}";s:9:"profiling";s:33766:"a:3:{s:6:"memory";i:8908960;s:4:"time";d:3.2667009830474854;s:8:"messages";a:28:{i:6;a:6:{i:0;s:64:"Opening DB connection: pgsql:host=localhost;dbname=Stelara_users";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1542334195.988815;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4175864;}i:7;a:6:{i:0;s:64:"Opening DB connection: pgsql:host=localhost;dbname=Stelara_users";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1542334196.028016;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4177272;}i:9;a:6:{i:0;s:2527:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.030643;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4298984;}i:10;a:6:{i:0;s:2527:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.101786;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4311000;}i:12;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.103548;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4327320;}i:13;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.109096;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4328448;}i:15;a:6:{i:0;s:53:"SELECT * FROM "user" WHERE ("id"=1) AND ("status"=10)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.117316;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4630904;}i:16;a:6:{i:0;s:53:"SELECT * FROM "user" WHERE ("id"=1) AND ("status"=10)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.118896;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4632928;}i:25;a:6:{i:0;s:58:"Opening DB connection: pgsql:host=localhost;dbname=Stelara";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1542334196.165594;i:4;a:1:{i:0;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:106;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:5173368;}i:26;a:6:{i:0;s:58:"Opening DB connection: pgsql:host=localhost;dbname=Stelara";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1542334196.202753;i:4;a:1:{i:0;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:106;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:5174992;}i:27;a:6:{i:0;s:18:"
+select cursor();
+";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.202779;i:4;a:1:{i:0;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:106;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:5175256;}i:28;a:6:{i:0;s:18:"
+select cursor();
+";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.280286;i:4;a:1:{i:0;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:106;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:5176736;}i:31;a:6:{i:0;s:49:"SELECT * FROM "producto" WHERE "category_id" = 12";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.518126;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5859712;}i:32;a:6:{i:0;s:49:"SELECT * FROM "producto" WHERE "category_id" = 12";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.518573;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5861592;}i:34;a:6:{i:0;s:2531:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'producto'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.518799;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5876560;}i:35;a:6:{i:0;s:2531:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'producto'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.648295;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5887456;}i:37;a:6:{i:0;s:876:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='producto'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.648767;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5879696;}i:38;a:6:{i:0;s:876:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='producto'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.652056;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5881752;}i:40;a:6:{i:0;s:27:"SELECT * FROM "categoria_p"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.048459;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6191280;}i:41;a:6:{i:0;s:27:"SELECT * FROM "categoria_p"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.048959;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6195680;}i:43;a:6:{i:0;s:2534:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'categoria_p'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.049192;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6211240;}i:44;a:6:{i:0;s:2534:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'categoria_p'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.054007;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6216736;}i:46;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='categoria_p'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.054516;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6212176;}i:47;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='categoria_p'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.060057;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6213576;}i:53;a:6:{i:0;s:134:"SELECT "b".* FROM "auth_assignment" "a", "auth_item" "b" WHERE ("a"."item_name"="b"."name") AND ("a"."user_id"='1') AND ("b"."type"=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334198.959647;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\layouts\main.php";s:4:"line";i:18;s:8:"function";s:14:"getRolesByUser";s:5:"class";s:18:"yii\rbac\DbManager";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:8586320;}i:54;a:6:{i:0;s:134:"SELECT "b".* FROM "auth_assignment" "a", "auth_item" "b" WHERE ("a"."item_name"="b"."name") AND ("a"."user_id"='1') AND ("b"."type"=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334199.045084;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\layouts\main.php";s:4:"line";i:18;s:8:"function";s:14:"getRolesByUser";s:5:"class";s:18:"yii\rbac\DbManager";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:8588432;}i:56;a:6:{i:0;s:134:"SELECT "b".* FROM "auth_assignment" "a", "auth_item" "b" WHERE ("a"."item_name"="b"."name") AND ("a"."user_id"='1') AND ("b"."type"=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334199.045444;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\layouts\main.php";s:4:"line";i:24;s:8:"function";s:14:"getRolesByUser";s:5:"class";s:18:"yii\rbac\DbManager";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:8589840;}i:57;a:6:{i:0;s:134:"SELECT "b".* FROM "auth_assignment" "a", "auth_item" "b" WHERE ("a"."item_name"="b"."name") AND ("a"."user_id"='1') AND ("b"."type"=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334199.045938;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\layouts\main.php";s:4:"line";i:24;s:8:"function";s:14:"getRolesByUser";s:5:"class";s:18:"yii\rbac\DbManager";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:8591952;}}}";s:2:"db";s:32203:"a:1:{s:8:"messages";a:24:{i:9;a:6:{i:0;s:2527:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.030643;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4298984;}i:10;a:6:{i:0;s:2527:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.101786;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4311000;}i:12;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.103548;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4327320;}i:13;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.109096;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4328448;}i:15;a:6:{i:0;s:53:"SELECT * FROM "user" WHERE ("id"=1) AND ("status"=10)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.117316;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4630904;}i:16;a:6:{i:0;s:53:"SELECT * FROM "user" WHERE ("id"=1) AND ("status"=10)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.118896;i:4;a:1:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:64;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:4632928;}i:27;a:6:{i:0;s:18:"
+select cursor();
+";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.202779;i:4;a:1:{i:0;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:106;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:5175256;}i:28;a:6:{i:0;s:18:"
+select cursor();
+";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.280286;i:4;a:1:{i:0;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:106;s:8:"function";s:8:"queryAll";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:5176736;}i:31;a:6:{i:0;s:49:"SELECT * FROM "producto" WHERE "category_id" = 12";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.518126;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5859712;}i:32;a:6:{i:0;s:49:"SELECT * FROM "producto" WHERE "category_id" = 12";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.518573;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5861592;}i:34;a:6:{i:0;s:2531:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'producto'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.518799;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5876560;}i:35;a:6:{i:0;s:2531:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'producto'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.648295;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5887456;}i:37;a:6:{i:0;s:876:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='producto'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.648767;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5879696;}i:38;a:6:{i:0;s:876:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='producto'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334196.652056;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:29;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5881752;}i:40;a:6:{i:0;s:27:"SELECT * FROM "categoria_p"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.048459;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6191280;}i:41;a:6:{i:0;s:27:"SELECT * FROM "categoria_p"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.048959;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6195680;}i:43;a:6:{i:0;s:2534:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'categoria_p'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.049192;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6211240;}i:44;a:6:{i:0;s:2534:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'categoria_p'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.054007;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6216736;}i:46;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='categoria_p'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.054516;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6212176;}i:47;a:6:{i:0;s:879:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='categoria_p'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334197.060057;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\producto\registro.php";s:4:"line";i:32;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:6213576;}i:53;a:6:{i:0;s:134:"SELECT "b".* FROM "auth_assignment" "a", "auth_item" "b" WHERE ("a"."item_name"="b"."name") AND ("a"."user_id"='1') AND ("b"."type"=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334198.959647;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\layouts\main.php";s:4:"line";i:18;s:8:"function";s:14:"getRolesByUser";s:5:"class";s:18:"yii\rbac\DbManager";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:8586320;}i:54;a:6:{i:0;s:134:"SELECT "b".* FROM "auth_assignment" "a", "auth_item" "b" WHERE ("a"."item_name"="b"."name") AND ("a"."user_id"='1') AND ("b"."type"=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334199.045084;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\layouts\main.php";s:4:"line";i:18;s:8:"function";s:14:"getRolesByUser";s:5:"class";s:18:"yii\rbac\DbManager";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:8588432;}i:56;a:6:{i:0;s:134:"SELECT "b".* FROM "auth_assignment" "a", "auth_item" "b" WHERE ("a"."item_name"="b"."name") AND ("a"."user_id"='1') AND ("b"."type"=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1542334199.045444;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\layouts\main.php";s:4:"line";i:24;s:8:"function";s:14:"getRolesByUser";s:5:"class";s:18:"yii\rbac\DbManager";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:8589840;}i:57;a:6:{i:0;s:134:"SELECT "b".* FROM "auth_assignment" "a", "auth_item" "b" WHERE ("a"."item_name"="b"."name") AND ("a"."user_id"='1') AND ("b"."type"=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1542334199.045938;i:4;a:2:{i:0;a:5:{s:4:"file";s:66:"C:\xampp\htdocs\postgrestry\Stelara\backend\views\layouts\main.php";s:4:"line";i:24;s:8:"function";s:14:"getRolesByUser";s:5:"class";s:18:"yii\rbac\DbManager";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:78:"C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\ProductoController.php";s:4:"line";i:158;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:8591952;}}}";s:5:"event";s:15905:"a:91:{i:0;a:5:{s:4:"time";d:1542334195.985035;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:1;a:5:{s:4:"time";d:1542334196.028002;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:2;a:5:{s:4:"time";d:1542334196.120838;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"common\models\User";}i:3;a:5:{s:4:"time";d:1542334196.120924;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"common\models\User";}i:4;a:5:{s:4:"time";d:1542334196.129566;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"common\models\User";}i:5;a:5:{s:4:"time";d:1542334196.131521;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:6;a:5:{s:4:"time";d:1542334196.164624;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:7;a:5:{s:4:"time";d:1542334196.164997;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:38:"backend\controllers\ProductoController";}i:8;a:5:{s:4:"time";d:1542334196.202745;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:9;a:5:{s:4:"time";d:1542334196.309399;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:10;a:5:{s:4:"time";d:1542334196.363149;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\widgets\ActiveForm";}i:11;a:5:{s:4:"time";d:1542334196.414181;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:12;a:5:{s:4:"time";d:1542334196.518712;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"backend\models\Producto";}i:13;a:5:{s:4:"time";d:1542334196.652413;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"backend\models\Producto";}i:14;a:5:{s:4:"time";d:1542334197.048364;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:15;a:5:{s:4:"time";d:1542334197.049091;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:16;a:5:{s:4:"time";d:1542334197.060387;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:17;a:5:{s:4:"time";d:1542334197.060427;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:18;a:5:{s:4:"time";d:1542334197.060465;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:19;a:5:{s:4:"time";d:1542334197.060489;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:20;a:5:{s:4:"time";d:1542334197.060514;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:21;a:5:{s:4:"time";d:1542334197.060537;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:22;a:5:{s:4:"time";d:1542334197.060561;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:23;a:5:{s:4:"time";d:1542334197.060584;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:24;a:5:{s:4:"time";d:1542334197.06061;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:25;a:5:{s:4:"time";d:1542334197.060621;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:26;a:5:{s:4:"time";d:1542334197.060633;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:27;a:5:{s:4:"time";d:1542334197.060644;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:28;a:5:{s:4:"time";d:1542334197.060662;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:29;a:5:{s:4:"time";d:1542334197.060668;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:30;a:5:{s:4:"time";d:1542334197.060672;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:31;a:5:{s:4:"time";d:1542334197.060677;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:32;a:5:{s:4:"time";d:1542334197.060682;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"backend\models\CategoriaP";}i:33;a:5:{s:4:"time";d:1542334197.2468;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"kartik\select2\Select2";}i:34;a:5:{s:4:"time";d:1542334197.302222;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"kartik\select2\Select2";}i:35;a:5:{s:4:"time";d:1542334197.547386;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"kartik\select2\Select2";}i:36;a:5:{s:4:"time";d:1542334198.18414;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"kartik\export\ExportMenu";}i:37;a:5:{s:4:"time";d:1542334198.30997;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"kartik\export\ExportMenu";}i:38;a:5:{s:4:"time";d:1542334198.496388;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"kartik\dialog\Dialog";}i:39;a:5:{s:4:"time";d:1542334198.496406;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"kartik\dialog\Dialog";}i:40;a:5:{s:4:"time";d:1542334198.646461;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"kartik\dialog\Dialog";}i:41;a:5:{s:4:"time";d:1542334198.741903;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:42;a:5:{s:4:"time";d:1542334198.845126;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:28:"yii\bootstrap\ButtonDropdown";}i:43;a:5:{s:4:"time";d:1542334198.845161;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:28:"yii\bootstrap\ButtonDropdown";}i:44;a:5:{s:4:"time";d:1542334198.877651;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"yii\bootstrap\Button";}i:45;a:5:{s:4:"time";d:1542334198.877668;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"yii\bootstrap\Button";}i:46;a:5:{s:4:"time";d:1542334198.877717;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"yii\bootstrap\Button";}i:47;a:5:{s:4:"time";d:1542334198.878381;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:48;a:5:{s:4:"time";d:1542334198.878396;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:49;a:5:{s:4:"time";d:1542334198.87847;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:50;a:5:{s:4:"time";d:1542334198.878482;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:28:"yii\bootstrap\ButtonDropdown";}i:51;a:5:{s:4:"time";d:1542334198.879004;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:52;a:5:{s:4:"time";d:1542334198.924264;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:24:"kartik\export\ExportMenu";}i:53;a:5:{s:4:"time";d:1542334198.924355;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\grid\GridView";}i:54;a:5:{s:4:"time";d:1542334198.92444;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\grid\GridView";}i:55;a:5:{s:4:"time";d:1542334198.927422;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\widgets\LinkPager";}i:56;a:5:{s:4:"time";d:1542334198.927432;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\widgets\LinkPager";}i:57;a:5:{s:4:"time";d:1542334198.92744;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"yii\widgets\LinkPager";}i:58;a:5:{s:4:"time";d:1542334198.92746;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\grid\GridView";}i:59;a:5:{s:4:"time";d:1542334198.927823;s:4:"name";s:12:"beforeRender";s:5:"class";s:18:"yii\base\ViewEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:60;a:5:{s:4:"time";d:1542334199.086667;s:4:"name";s:9:"beginPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:61;a:5:{s:4:"time";d:1542334199.08739;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\bootstrap\Modal";}i:62;a:5:{s:4:"time";d:1542334199.087454;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\bootstrap\Modal";}i:63;a:5:{s:4:"time";d:1542334199.087493;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\bootstrap\Modal";}i:64;a:5:{s:4:"time";d:1542334199.087504;s:4:"name";s:9:"beginBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:65;a:5:{s:4:"time";d:1542334199.088099;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"yii\bootstrap\NavBar";}i:66;a:5:{s:4:"time";d:1542334199.088872;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\bootstrap\Nav";}i:67;a:5:{s:4:"time";d:1542334199.088899;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\bootstrap\Nav";}i:68;a:5:{s:4:"time";d:1542334199.088995;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:69;a:5:{s:4:"time";d:1542334199.089004;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:70;a:5:{s:4:"time";d:1542334199.08907;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:71;a:5:{s:4:"time";d:1542334199.08911;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:72;a:5:{s:4:"time";d:1542334199.089118;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:73;a:5:{s:4:"time";d:1542334199.089164;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:22:"yii\bootstrap\Dropdown";}i:74;a:5:{s:4:"time";d:1542334199.089208;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\bootstrap\Nav";}i:75;a:5:{s:4:"time";d:1542334199.08923;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"yii\bootstrap\NavBar";}i:76;a:5:{s:4:"time";d:1542334199.089245;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"yii\bootstrap\NavBar";}i:77;a:5:{s:4:"time";d:1542334199.090197;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\widgets\Breadcrumbs";}i:78;a:5:{s:4:"time";d:1542334199.090221;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\widgets\Breadcrumbs";}i:79;a:5:{s:4:"time";d:1542334199.090299;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\widgets\Breadcrumbs";}i:80;a:5:{s:4:"time";d:1542334199.091309;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"common\widgets\Alert";}i:81;a:5:{s:4:"time";d:1542334199.091335;s:4:"name";s:9:"beforeRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"common\widgets\Alert";}i:82;a:5:{s:4:"time";d:1542334199.091368;s:4:"name";s:8:"afterRun";s:5:"class";s:20:"yii\base\WidgetEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:20:"common\widgets\Alert";}i:83;a:5:{s:4:"time";d:1542334199.092347;s:4:"name";s:7:"endBody";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:84;a:5:{s:4:"time";d:1542334199.092695;s:4:"name";s:7:"endPage";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\View";}i:85;a:5:{s:4:"time";d:1542334199.092899;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:38:"backend\controllers\ProductoController";}i:86;a:5:{s:4:"time";d:1542334199.092908;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:87;a:5:{s:4:"time";d:1542334199.092917;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:88;a:5:{s:4:"time";d:1542334199.092925;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:89;a:5:{s:4:"time";d:1542334199.093649;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:90;a:5:{s:4:"time";d:1542334199.093754;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:6:"assets";s:12309:"a:16:{s:27:"kartik\select2\Select2Asset";a:15:{s:15:"bsPluginEnabled";b:0;s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:2:"js";a:2:{i:0;s:18:"js/select2.full.js";i:1;s:20:"js/select2-krajee.js";}s:3:"css";a:2:{i:0;s:15:"css/select2.css";i:1;s:20:"css/select2-addl.css";}s:10:"sourcePath";s:82:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-widget-select2\src/assets";s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\a26a5fe2";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/a26a5fe2";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:2:{i:3;a:5:{s:2:"xs";s:7:"col-xs-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-lg-";}i:4;a:5:{s:2:"xs";s:4:"col-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-xl-";}}s:21:" * _defaultIconPrefix";s:20:"glyphicon glyphicon-";s:17:" * _defaultBtnCss";s:11:"btn-default";s:9:" * _isBs4";b:0;}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:62:"C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\61ca127a";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/61ca127a";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:66:"C:\xampp\htdocs\postgrestry\Stelara/vendor/bower-asset/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\12c29eef";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/12c29eef";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\bootstrap\BootstrapAsset";a:9:{s:10:"sourcePath";s:69:"C:\xampp\htdocs\postgrestry\Stelara/vendor/bower-asset/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\70a56cd7";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/70a56cd7";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:1:{s:8:"position";i:1;}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:31:"kartik\select2\ThemeKrajeeAsset";a:15:{s:7:"depends";a:2:{i:0;s:27:"kartik\select2\Select2Asset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:15:"bsPluginEnabled";b:0;s:2:"js";a:0:{}s:3:"css";a:1:{i:0;s:22:"css/select2-krajee.css";}s:10:"sourcePath";s:82:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-widget-select2\src/assets";s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\a26a5fe2";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/a26a5fe2";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:2:{i:3;a:5:{s:2:"xs";s:7:"col-xs-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-lg-";}i:4;a:5:{s:2:"xs";s:4:"col-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-xl-";}}s:21:" * _defaultIconPrefix";s:20:"glyphicon glyphicon-";s:17:" * _defaultBtnCss";s:11:"btn-default";s:9:" * _isBs4";b:0;}s:23:"kartik\base\WidgetAsset";a:15:{s:15:"bsPluginEnabled";b:0;s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:2:"js";a:1:{i:0;s:16:"js/kv-widgets.js";}s:3:"css";a:1:{i:0;s:18:"css/kv-widgets.css";}s:10:"sourcePath";s:79:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-krajee-base\src/assets";s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\475df569";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/475df569";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:2:{i:3;a:5:{s:2:"xs";s:7:"col-xs-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-lg-";}i:4;a:5:{s:2:"xs";s:4:"col-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-xl-";}}s:21:" * _defaultIconPrefix";s:20:"glyphicon glyphicon-";s:17:" * _defaultBtnCss";s:11:"btn-default";s:9:" * _isBs4";b:0;}s:30:"yii\validators\ValidationAsset";a:9:{s:10:"sourcePath";s:62:"C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.validation.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\61ca127a";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/61ca127a";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"kartik\dialog\DialogBootstrapAsset";a:15:{s:15:"bsPluginEnabled";b:1;s:7:"depends";a:4:{i:0;s:25:"kartik\dialog\DialogAsset";i:1;s:16:"yii\web\YiiAsset";i:2;s:28:"yii\bootstrap\BootstrapAsset";i:3;s:34:"yii\bootstrap\BootstrapPluginAsset";}s:2:"js";a:1:{i:0;s:22:"js/bootstrap-dialog.js";}s:3:"css";a:1:{i:0;s:28:"css/bootstrap-dialog-bs3.css";}s:10:"sourcePath";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-dialog\src/assets";s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\c05b0549";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/c05b0549";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:2:{i:3;a:5:{s:2:"xs";s:7:"col-xs-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-lg-";}i:4;a:5:{s:2:"xs";s:4:"col-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-xl-";}}s:21:" * _defaultIconPrefix";s:20:"glyphicon glyphicon-";s:17:" * _defaultBtnCss";s:11:"btn-default";s:9:" * _isBs4";b:0;}s:25:"kartik\dialog\DialogAsset";a:15:{s:7:"depends";a:1:{i:0;s:28:"yii\bootstrap\BootstrapAsset";}s:15:"bsPluginEnabled";b:0;s:2:"js";a:1:{i:0;s:12:"js/dialog.js";}s:3:"css";a:0:{}s:10:"sourcePath";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-dialog\src/assets";s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\c05b0549";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/c05b0549";s:9:"jsOptions";a:1:{s:8:"position";i:1;}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:2:{i:3;a:5:{s:2:"xs";s:7:"col-xs-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-lg-";}i:4;a:5:{s:2:"xs";s:4:"col-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-xl-";}}s:21:" * _defaultIconPrefix";s:20:"glyphicon glyphicon-";s:17:" * _defaultBtnCss";s:11:"btn-default";s:9:" * _isBs4";b:0;}s:34:"yii\bootstrap\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:69:"C:\xampp\htdocs\postgrestry\Stelara/vendor/bower-asset/bootstrap/dist";s:2:"js";a:1:{i:0;s:15:"js/bootstrap.js";}s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\70a56cd7";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/70a56cd7";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"kartik\dialog\DialogYiiAsset";a:15:{s:7:"depends";a:3:{i:0;s:25:"kartik\dialog\DialogAsset";i:1;s:16:"yii\web\YiiAsset";i:2;s:28:"yii\bootstrap\BootstrapAsset";}s:15:"bsPluginEnabled";b:0;s:2:"js";a:1:{i:0;s:16:"js/dialog-yii.js";}s:3:"css";a:0:{}s:10:"sourcePath";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-dialog\src/assets";s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\c05b0549";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/c05b0549";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:2:{i:3;a:5:{s:2:"xs";s:7:"col-xs-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-lg-";}i:4;a:5:{s:2:"xs";s:4:"col-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-xl-";}}s:21:" * _defaultIconPrefix";s:20:"glyphicon glyphicon-";s:17:" * _defaultBtnCss";s:11:"btn-default";s:9:" * _isBs4";b:0;}s:29:"kartik\export\ExportMenuAsset";a:15:{s:15:"bsPluginEnabled";b:0;s:7:"depends";a:3:{i:0;s:26:"\kartik\dialog\DialogAsset";i:1;s:16:"yii\web\YiiAsset";i:2;s:28:"yii\bootstrap\BootstrapAsset";}s:2:"js";a:1:{i:0;s:20:"js/kv-export-data.js";}s:3:"css";a:1:{i:0;s:22:"css/kv-export-data.css";}s:10:"sourcePath";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-export\src/assets";s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\31bc7e8b";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/31bc7e8b";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:2:{i:3;a:5:{s:2:"xs";s:7:"col-xs-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-lg-";}i:4;a:5:{s:2:"xs";s:4:"col-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-xl-";}}s:21:" * _defaultIconPrefix";s:20:"glyphicon glyphicon-";s:17:" * _defaultBtnCss";s:11:"btn-default";s:9:" * _isBs4";b:0;}s:26:"\kartik\dialog\DialogAsset";a:15:{s:7:"depends";a:1:{i:0;s:28:"yii\bootstrap\BootstrapAsset";}s:15:"bsPluginEnabled";b:0;s:2:"js";a:1:{i:0;s:12:"js/dialog.js";}s:3:"css";a:0:{}s:10:"sourcePath";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-dialog\src/assets";s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\c05b0549";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/c05b0549";s:9:"jsOptions";a:1:{s:8:"position";i:1;}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:2:{i:3;a:5:{s:2:"xs";s:7:"col-xs-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-lg-";}i:4;a:5:{s:2:"xs";s:4:"col-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-xl-";}}s:21:" * _defaultIconPrefix";s:20:"glyphicon glyphicon-";s:17:" * _defaultBtnCss";s:11:"btn-default";s:9:" * _isBs4";b:0;}s:31:"kartik\export\ExportColumnAsset";a:15:{s:15:"bsPluginEnabled";b:0;s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:2:"js";a:1:{i:0;s:23:"js/kv-export-columns.js";}s:3:"css";a:1:{i:0;s:25:"css/kv-export-columns.css";}s:10:"sourcePath";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor\kartik-v\yii2-export\src/assets";s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\31bc7e8b";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/31bc7e8b";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:2:{i:3;a:5:{s:2:"xs";s:7:"col-xs-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-lg-";}i:4;a:5:{s:2:"xs";s:4:"col-";s:2:"sm";s:7:"col-sm-";s:2:"md";s:7:"col-md-";s:2:"lg";s:7:"col-lg-";s:2:"xl";s:7:"col-xl-";}}s:21:" * _defaultIconPrefix";s:20:"glyphicon glyphicon-";s:17:" * _defaultBtnCss";s:11:"btn-default";s:9:" * _isBs4";b:0;}s:22:"yii\grid\GridViewAsset";a:9:{s:10:"sourcePath";s:62:"C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:15:"yii.gridView.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:63:"C:\xampp\htdocs\postgrestry\Stelara\backend\web\assets\61ca127a";s:7:"baseUrl";s:48:"/postgrestry/stelara/backend/web/assets/61ca127a";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:23:"backend\assets\AppAsset";a:9:{s:8:"basePath";s:47:"C:/xampp/htdocs/postgrestry/Stelara/backend/web";s:7:"baseUrl";s:32:"/postgrestry/stelara/backend/web";s:3:"css";a:1:{i:0;s:12:"css/site.css";}s:2:"js";a:1:{i:0;s:11:"js/modal.js";}s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:10:"sourcePath";N;s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1542334195.830054;s:3:"end";d:1542334199.107618;s:6:"memory";i:8908960;}";s:4:"user";s:2582:"a:5:{s:2:"id";i:1;s:8:"identity";a:9:{s:2:"id";s:1:"1";s:8:"username";s:7:"'admin'";s:8:"auth_key";s:34:"'N1uU0n6N47vYNBfWLuuruWneJh5332IO'";s:13:"password_hash";s:62:"'$2y$13$xhNHjhKHpy73zM/bMQ.R6u5g04GeUdsQdyOlQ2iFpBSksHE/QDUL6'";s:20:"password_reset_token";s:4:"null";s:5:"email";s:17:"'admin@admin.com'";s:6:"status";s:2:"10";s:10:"created_at";s:10:"1538779495";s:10:"updated_at";s:10:"1538779495";}s:10:"attributes";a:9:{i:0;a:2:{s:9:"attribute";s:2:"id";s:5:"label";s:2:"Id";}i:1;a:2:{s:9:"attribute";s:8:"username";s:5:"label";s:8:"Username";}i:2;a:2:{s:9:"attribute";s:8:"auth_key";s:5:"label";s:8:"Auth Key";}i:3;a:2:{s:9:"attribute";s:13:"password_hash";s:5:"label";s:13:"Password Hash";}i:4;a:2:{s:9:"attribute";s:20:"password_reset_token";s:5:"label";s:20:"Password Reset Token";}i:5;a:2:{s:9:"attribute";s:5:"email";s:5:"label";s:5:"Email";}i:6;a:2:{s:9:"attribute";s:6:"status";s:5:"label";s:6:"Status";}i:7;a:2:{s:9:"attribute";s:10:"created_at";s:5:"label";s:10:"Created At";}i:8;a:2:{s:9:"attribute";s:10:"updated_at";s:5:"label";s:10:"Updated At";}}s:13:"rolesProvider";O:26:"yii\data\ArrayDataProvider":12:{s:3:"key";N;s:9:"allModels";a:3:{s:5:"guest";a:7:{s:4:"type";i:1;s:4:"name";s:5:"guest";s:11:"description";N;s:8:"ruleName";N;s:4:"data";s:4:"null";s:9:"createdAt";N;s:9:"updatedAt";N;}s:4:"user";a:7:{s:4:"type";i:1;s:4:"name";s:4:"user";s:11:"description";N;s:8:"ruleName";N;s:4:"data";s:4:"null";s:9:"createdAt";N;s:9:"updatedAt";N;}s:13:"Administrator";a:7:{s:4:"type";i:1;s:4:"name";s:13:"Administrator";s:11:"description";s:26:"Administra todo el sistema";s:8:"ruleName";s:1:"0";s:4:"data";s:4:"null";s:9:"createdAt";i:1538780638;s:9:"updatedAt";i:1538780638;}}s:10:"modelClass";N;s:2:"id";s:4:"dp-1";s:32:" yii\data\BaseDataProvider _sort";N;s:38:" yii\data\BaseDataProvider _pagination";N;s:32:" yii\data\BaseDataProvider _keys";N;s:34:" yii\data\BaseDataProvider _models";N;s:38:" yii\data\BaseDataProvider _totalCount";N;s:27:" yii\base\Component _events";a:0:{}s:35:" yii\base\Component _eventWildcards";a:0:{}s:30:" yii\base\Component _behaviors";N;}s:19:"permissionsProvider";O:26:"yii\data\ArrayDataProvider":12:{s:3:"key";N;s:9:"allModels";a:0:{}s:10:"modelClass";N;s:2:"id";s:4:"dp-2";s:32:" yii\data\BaseDataProvider _sort";N;s:38:" yii\data\BaseDataProvider _pagination";N;s:32:" yii\data\BaseDataProvider _keys";N;s:34:" yii\data\BaseDataProvider _models";N;s:38:" yii\data\BaseDataProvider _totalCount";N;s:27:" yii\base\Component _events";a:0:{}s:35:" yii\base\Component _eventWildcards";a:0:{}s:30:" yii\base\Component _behaviors";N;}}";s:6:"router";s:206:"a:1:{s:8:"messages";a:1:{i:19;a:6:{i:0;s:56:"Pretty URL not enabled. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1542334196.131528;i:4;a:0:{}i:5;i:5056984;}}}";s:7:"summary";a:10:{s:3:"tag";s:13:"5bee26f41fdde";s:3:"url";s:86:"http://localhost/postgrestry/stelara/backend/web/index.php?r=producto%2Fregistro-unico";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:3:"::1";s:4:"time";d:1542334195.777;s:10:"statusCode";i:200;s:8:"sqlCount";i:12;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}}s:10:"exceptions";a:0:{}}
