@@ -5,6 +5,7 @@
 $this->title = 'My Yii Application';
 
 ?>
+
  <div class="row" style="  margin-top:-120px;margin-bottom:70px; "> 
         <center>     
 <img src=" ..\views\layouts\img\stelara.jpg" ">
@@ -14,10 +15,10 @@ $this->title = 'My Yii Application';
 <div class="site-index">
     <h1> Panel de Administración</h1>
 
-
     <div class="body-content">
         
          <div class="row">
+
             <div class="col-md-6" onclick="location.href='index.php?r=registro';" >
               <div class="card mb-6 shadow-sm" >
                 

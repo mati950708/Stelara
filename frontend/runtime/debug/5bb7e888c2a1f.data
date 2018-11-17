@@ -1,0 +1,397 @@
+a:12:{s:6:"config";s:12651:"a:5:{s:10:"phpVersion";s:5:"7.2.4";s:10:"yiiVersion";s:8:"2.0.15.1";s:11:"application";a:8:{s:3:"yii";s:8:"2.0.15.1";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:5:"7.2.4";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:52:{s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.8.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-bootstrap/src";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.0.13.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:61:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-debug";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:61:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-faker";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.1.1.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:71:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-swiftmailer/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:63:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-gii/src";}}s:16:"yiisoft/yii2-jui";a:3:{s:4:"name";s:16:"yiisoft/yii2-jui";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:8:"@yii/jui";s:59:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yiisoft/yii2-jui";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"1.8.9.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:68:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-krajee-base";}}s:25:"kartik-v/yii2-datecontrol";a:3:{s:4:"name";s:25:"kartik-v/yii2-datecontrol";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:19:"@kartik/datecontrol";s:68:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-datecontrol";}}s:34:"nerburish/yii2-daterange-validator";a:3:{s:4:"name";s:34:"nerburish/yii2-daterange-validator";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:29:"@nerburish/daterangevalidator";s:77:"C:\xampp\htdocs\postgrestry\Stelara\vendor/nerburish/yii2-daterange-validator";}}s:24:"kartik-v/yii2-date-range";a:3:{s:4:"name";s:24:"kartik-v/yii2-date-range";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:17:"@kartik/daterange";s:67:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-date-range";}}s:18:"kartik-v/yii2-mpdf";a:3:{s:4:"name";s:18:"kartik-v/yii2-mpdf";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/mpdf";s:61:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-mpdf";}}s:20:"kartik-v/yii2-dialog";a:3:{s:4:"name";s:20:"kartik-v/yii2-dialog";s:7:"version";s:7:"1.0.3.0";s:5:"alias";a:1:{s:14:"@kartik/dialog";s:63:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-dialog";}}s:26:"creocoder/yii2-nested-sets";a:3:{s:4:"name";s:26:"creocoder/yii2-nested-sets";s:7:"version";s:7:"0.9.0.0";s:5:"alias";a:1:{s:21:"@creocoder/nestedsets";s:73:"C:\xampp\htdocs\postgrestry\Stelara\vendor/creocoder/yii2-nested-sets/src";}}s:31:"kartik-v/yii2-widget-activeform";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-activeform";s:7:"version";s:7:"1.4.9.0";s:5:"alias";a:1:{s:12:"@kartik/form";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-activeform";}}s:26:"kartik-v/yii2-tree-manager";a:3:{s:4:"name";s:26:"kartik-v/yii2-tree-manager";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/tree";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-tree-manager";}}s:28:"kartik-v/yii2-widget-select2";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-select2";s:7:"version";s:7:"2.1.1.0";s:5:"alias";a:1:{s:15:"@kartik/select2";s:71:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-select2";}}s:22:"kartik-v/yii2-sortable";a:3:{s:4:"name";s:22:"kartik-v/yii2-sortable";s:7:"version";s:7:"1.2.0.0";s:5:"alias";a:1:{s:16:"@kartik/sortable";s:65:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-sortable";}}s:18:"kartik-v/yii2-grid";a:3:{s:4:"name";s:18:"kartik-v/yii2-grid";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/grid";s:61:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-grid";}}s:22:"kartik-v/yii2-dynagrid";a:3:{s:4:"name";s:22:"kartik-v/yii2-dynagrid";s:7:"version";s:7:"1.4.8.0";s:5:"alias";a:1:{s:16:"@kartik/dynagrid";s:65:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-dynagrid";}}s:20:"kartik-v/yii2-export";a:3:{s:4:"name";s:20:"kartik-v/yii2-export";s:7:"version";s:7:"1.2.9.0";s:5:"alias";a:1:{s:14:"@kartik/export";s:63:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-export";}}s:33:"2amigos/yii2-arrayquery-component";a:3:{s:4:"name";s:33:"2amigos/yii2-arrayquery-component";s:7:"version";s:7:"1.0.3.0";s:5:"alias";a:1:{s:21:"@dosamigos/arrayquery";s:80:"C:\xampp\htdocs\postgrestry\Stelara\vendor/2amigos/yii2-arrayquery-component/src";}}s:17:"yii2mod/yii2-rbac";a:3:{s:4:"name";s:17:"yii2mod/yii2-rbac";s:7:"version";s:7:"2.3.0.0";s:5:"alias";a:1:{s:13:"@yii2mod/rbac";s:60:"C:\xampp\htdocs\postgrestry\Stelara\vendor/yii2mod/yii2-rbac";}}s:43:"2amigos/yii2-bootstrap-form-helpers-library";a:3:{s:4:"name";s:43:"2amigos/yii2-bootstrap-form-helpers-library";s:7:"version";s:7:"0.1.1.0";s:5:"alias";a:1:{s:22:"@dosamigos/formhelpers";s:86:"C:\xampp\htdocs\postgrestry\Stelara\vendor/2amigos/yii2-bootstrap-form-helpers-library";}}s:36:"2amigos/yii2-date-time-picker-widget";a:3:{s:4:"name";s:36:"2amigos/yii2-date-time-picker-widget";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:25:"@dosamigos/datetimepicker";s:83:"C:\xampp\htdocs\postgrestry\Stelara\vendor/2amigos/yii2-date-time-picker-widget/src";}}s:31:"2amigos/yii2-date-picker-widget";a:3:{s:4:"name";s:31:"2amigos/yii2-date-picker-widget";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:21:"@dosamigos/datepicker";s:78:"C:\xampp\htdocs\postgrestry\Stelara\vendor/2amigos/yii2-date-picker-widget/src";}}s:20:"kartik-v/yii2-tabs-x";a:3:{s:4:"name";s:20:"kartik-v/yii2-tabs-x";s:7:"version";s:7:"1.2.4.0";s:5:"alias";a:1:{s:12:"@kartik/tabs";s:63:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-tabs-x";}}s:30:"kartik-v/yii2-widget-typeahead";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-typeahead";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:17:"@kartik/typeahead";s:73:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-typeahead";}}s:30:"kartik-v/yii2-widget-touchspin";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-touchspin";s:7:"version";s:7:"1.2.1.0";s:5:"alias";a:1:{s:17:"@kartik/touchspin";s:73:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-touchspin";}}s:31:"kartik-v/yii2-widget-timepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-timepicker";s:7:"version";s:7:"1.0.3.0";s:5:"alias";a:1:{s:12:"@kartik/time";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-timepicker";}}s:32:"kartik-v/yii2-widget-switchinput";a:3:{s:4:"name";s:32:"kartik-v/yii2-widget-switchinput";s:7:"version";s:7:"1.3.1.0";s:5:"alias";a:1:{s:19:"@kartik/switchinput";s:75:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-switchinput";}}s:28:"kartik-v/yii2-widget-spinner";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-spinner";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:15:"@kartik/spinner";s:71:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-spinner";}}s:28:"kartik-v/yii2-widget-sidenav";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-sidenav";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:15:"@kartik/sidenav";s:71:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-sidenav";}}s:27:"kartik-v/yii2-widget-rating";a:3:{s:4:"name";s:27:"kartik-v/yii2-widget-rating";s:7:"version";s:7:"1.0.3.0";s:5:"alias";a:1:{s:14:"@kartik/rating";s:70:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-rating";}}s:31:"kartik-v/yii2-widget-rangeinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-rangeinput";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:13:"@kartik/range";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-rangeinput";}}s:26:"kartik-v/yii2-widget-growl";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-growl";s:7:"version";s:7:"1.1.1.0";s:5:"alias";a:1:{s:13:"@kartik/growl";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-growl";}}s:30:"kartik-v/yii2-widget-fileinput";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-fileinput";s:7:"version";s:7:"1.0.6.0";s:5:"alias";a:1:{s:12:"@kartik/file";s:73:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-fileinput";}}s:28:"kartik-v/yii2-widget-depdrop";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-depdrop";s:7:"version";s:7:"1.0.4.0";s:5:"alias";a:1:{s:15:"@kartik/depdrop";s:71:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-depdrop";}}s:35:"kartik-v/yii2-widget-datetimepicker";a:3:{s:4:"name";s:35:"kartik-v/yii2-widget-datetimepicker";s:7:"version";s:7:"1.4.4.0";s:5:"alias";a:1:{s:16:"@kartik/datetime";s:78:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-datetimepicker";}}s:31:"kartik-v/yii2-widget-datepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-datepicker";s:7:"version";s:7:"1.4.3.0";s:5:"alias";a:1:{s:12:"@kartik/date";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-datepicker";}}s:31:"kartik-v/yii2-widget-colorinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-colorinput";s:7:"version";s:7:"1.0.3.0";s:5:"alias";a:1:{s:13:"@kartik/color";s:74:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-colorinput";}}s:26:"kartik-v/yii2-widget-alert";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-alert";s:7:"version";s:7:"1.1.1.0";s:5:"alias";a:1:{s:13:"@kartik/alert";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-alert";}}s:26:"kartik-v/yii2-widget-affix";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-affix";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:13:"@kartik/affix";s:69:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widget-affix";}}s:21:"kartik-v/yii2-widgets";a:3:{s:4:"name";s:21:"kartik-v/yii2-widgets";s:7:"version";s:7:"3.4.0.0";s:5:"alias";a:1:{s:15:"@kartik/widgets";s:64:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-widgets";}}s:21:"kartik-v/yii2-helpers";a:3:{s:4:"name";s:21:"kartik-v/yii2-helpers";s:7:"version";s:7:"1.3.6.0";s:5:"alias";a:1:{s:15:"@kartik/helpers";s:64:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-helpers";}}s:40:"mootensai/yii2-optimistic-lock-validator";a:3:{s:4:"name";s:40:"mootensai/yii2-optimistic-lock-validator";s:7:"version";s:7:"0.0.1.0";s:5:"alias";a:1:{s:21:"@mootensai/components";s:83:"C:\xampp\htdocs\postgrestry\Stelara\vendor/mootensai/yii2-optimistic-lock-validator";}}s:21:"kartik-v/yii2-builder";a:3:{s:4:"name";s:21:"kartik-v/yii2-builder";s:7:"version";s:7:"1.6.3.0";s:5:"alias";a:1:{s:15:"@kartik/builder";s:64:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-builder";}}s:22:"mootensai/yii2-jsblock";a:3:{s:4:"name";s:22:"mootensai/yii2-jsblock";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:21:"@mootensai/components";s:65:"C:\xampp\htdocs\postgrestry\Stelara\vendor/mootensai/yii2-jsblock";}}s:29:"mootensai/yii2-relation-trait";a:3:{s:4:"name";s:29:"mootensai/yii2-relation-trait";s:7:"version";s:7:"1.1.8.0";s:5:"alias";a:1:{s:19:"@mootensai/relation";s:72:"C:\xampp\htdocs\postgrestry\Stelara\vendor/mootensai/yii2-relation-trait";}}s:27:"mootensai/yii2-enhanced-gii";a:4:{s:4:"name";s:27:"mootensai/yii2-enhanced-gii";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:22:"@mootensai/enhancedgii";s:70:"C:\xampp\htdocs\postgrestry\Stelara\vendor/mootensai/yii2-enhanced-gii";}s:9:"bootstrap";s:31:"mootensai\enhancedgii\Bootstrap";}s:34:"edofre/yii2-fullcalendar-scheduler";a:3:{s:4:"name";s:34:"edofre/yii2-fullcalendar-scheduler";s:7:"version";s:8:"1.1.12.0";s:5:"alias";a:1:{s:29:"@edofre/fullcalendarscheduler";s:81:"C:\xampp\htdocs\postgrestry\Stelara\vendor/edofre/yii2-fullcalendar-scheduler/src";}}s:23:"kartik-v/yii2-popover-x";a:3:{s:4:"name";s:23:"kartik-v/yii2-popover-x";s:7:"version";s:7:"1.3.4.0";s:5:"alias";a:1:{s:15:"@kartik/popover";s:66:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-popover-x";}}s:22:"kartik-v/yii2-editable";a:3:{s:4:"name";s:22:"kartik-v/yii2-editable";s:7:"version";s:7:"1.7.6.0";s:5:"alias";a:1:{s:16:"@kartik/editable";s:65:"C:\xampp\htdocs\postgrestry\Stelara\vendor/kartik-v/yii2-editable";}}}}";s:7:"request";s:8413:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:13:{s:4:"host";s:9:"localhost";s:10:"connection";s:10:"keep-alive";s:14:"content-length";s:3:"242";s:13:"cache-control";s:9:"max-age=0";s:6:"origin";s:16:"http://localhost";s:25:"upgrade-insecure-requests";s:1:"1";s:12:"content-type";s:33:"application/x-www-form-urlencoded";s:10:"user-agent";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36";s:6:"accept";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8";s:7:"referer";s:74:"http://localhost/postgrestry/stelara/frontend/web/index.php?r=site%2Flogin";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:15:"accept-language";s:27:"es-US,es-419;q=0.9,es;q=0.8";s:6:"cookie";s:698:"advanced-backend=6p4gq0m25td48v7ckpm1vvpjk1; _identity-backend=806ab3da286ce18ea8f4c78be71aa2ced956357f8352c93d0b63f3748f97f937a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B7%2C%227YUhaO_0JpQlt3ARfulon5QEl3-e_ni4%22%2C2592000%5D%22%3B%7D; _csrf-backend=9054991882fac8bdeed50a81df1767b73e78d0f71a2cfaf1581d535975add49da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ESqFNCrjjLGTDrdFccSQ2pLpWmWRqGCk%22%3B%7D; advanced-frontend=ftttvfvtdms1bubcqigquhjcvm; _csrf-frontend=1e90f9ae7da6a9beb1da3a16b1dead9692346bc6587874ea21adb6068caa82c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22MyKzadCNewFK_USuOwstNcWHYC1Y2Eai%22%3B%7D";}s:15:"responseHeaders";a:8:{s:12:"X-Powered-By";s:9:"PHP/7.2.4";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"5bb7e888c2a1f";s:16:"X-Debug-Duration";s:3:"395";s:12:"X-Debug-Link";s:86:"/postgrestry/stelara/frontend/web/index.php?r=debug%2Fdefault%2Fview&tag=5bb7e888c2a1f";}s:5:"route";s:10:"site/login";s:6:"action";s:50:"frontend\controllers\SiteController::actionLogin()";s:12:"actionParams";a:0:{}s:7:"general";a:5:{s:6:"method";s:4:"POST";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:3:{s:12:"Content Type";s:33:"application/x-www-form-urlencoded";s:3:"Raw";s:242:"_csrf-frontend=UEa5YjZuvLG1ypLcMsrSaWU9kpL3lJmETpgeLslseQkdP_IYVwr__9C91Jdtn4EcKkrh5rn3zswX2y93-ykYYA%3D%3D&LoginForm%5Busername%5D=mat&LoginForm%5Bpassword%5D=con123tra456&LoginForm%5BrememberMe%5D=0&LoginForm%5BrememberMe%5D=1&login-button=";s:17:"Decoded to Params";a:3:{s:14:"_csrf-frontend";s:88:"UEa5YjZuvLG1ypLcMsrSaWU9kpL3lJmETpgeLslseQkdP_IYVwr__9C91Jdtn4EcKkrh5rn3zswX2y93-ykYYA==";s:9:"LoginForm";a:3:{s:8:"username";s:3:"mat";s:8:"password";s:12:"con123tra456";s:10:"rememberMe";s:1:"1";}s:12:"login-button";s:0:"";}}s:6:"SERVER";a:46:{s:7:"MIBDIRS";s:24:"C:/xampp/php/extras/mibs";s:10:"MYSQL_HOME";s:16:"\xampp\mysql\bin";s:12:"OPENSSL_CONF";s:31:"C:/xampp/apache/bin/openssl.cnf";s:20:"PHP_PEAR_SYSCONF_DIR";s:10:"\xampp\php";s:5:"PHPRC";s:10:"\xampp\php";s:3:"TMP";s:10:"\xampp\tmp";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:14:"CONTENT_LENGTH";s:3:"242";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ORIGIN";s:16:"http://localhost";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:15:"HTTP_USER_AGENT";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36";s:11:"HTTP_ACCEPT";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8";s:12:"HTTP_REFERER";s:74:"http://localhost/postgrestry/stelara/frontend/web/index.php?r=site%2Flogin";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:20:"HTTP_ACCEPT_LANGUAGE";s:27:"es-US,es-419;q=0.9,es;q=0.8";s:11:"HTTP_COOKIE";s:698:"advanced-backend=6p4gq0m25td48v7ckpm1vvpjk1; _identity-backend=806ab3da286ce18ea8f4c78be71aa2ced956357f8352c93d0b63f3748f97f937a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B7%2C%227YUhaO_0JpQlt3ARfulon5QEl3-e_ni4%22%2C2592000%5D%22%3B%7D; _csrf-backend=9054991882fac8bdeed50a81df1767b73e78d0f71a2cfaf1581d535975add49da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ESqFNCrjjLGTDrdFccSQ2pLpWmWRqGCk%22%3B%7D; advanced-frontend=ftttvfvtdms1bubcqigquhjcvm; _csrf-frontend=1e90f9ae7da6a9beb1da3a16b1dead9692346bc6587874ea21adb6068caa82c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22MyKzadCNewFK_USuOwstNcWHYC1Y2Eai%22%3B%7D";s:4:"PATH";s:1432:"C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\xampp\php;C:\composer;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;"C:\Program Files\Java\jre6\bin;F:\JDK\bin;";"C:\ProgramFiles\Java\jdk1.8.0_60\bin;C:\ProgramFiles\nodejs;C:\Gradle\gradle-4.0\bin;C:\ANDROID_SDK\tools;C:\WINDOWS\system32; C:\WINDOWS; C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32; C:\WINDOWS; C:\WINDOWS\System32\Wbem;";C:\Program Files\nodejs\;C:\Users\TuUsuario\AppData\Roaming\npm;angular-cli\bin;C:\Ruby24-x64\bin;C:\Users\mati\AppData\Local\Microsoft\WindowsApps;C:\Users\mati\AppData\Roaming\Composer\vendor\bin;C:\Gradle\gradle-4.8.1\bin;"C:\Ruby23\bin;C:\Users\kumar\AppData\Roaming\npm;C:\ANDROID_SDK\tools;%SystemRo";C:\Users\mati\AppData\Roaming\npm";s:10:"SystemRoot";s:10:"C:\WINDOWS";s:7:"COMSPEC";s:27:"C:\WINDOWS\system32\cmd.exe";s:7:"PATHEXT";s:62:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW";s:6:"WINDIR";s:10:"C:\WINDOWS";s:16:"SERVER_SIGNATURE";s:94:"<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:46:"Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:12:"SERVER_ADMIN";s:20:"postmaster@localhost";s:15:"SCRIPT_FILENAME";s:58:"C:/xampp/htdocs/postgrestry/Stelara/frontend/web/index.php";s:11:"REMOTE_PORT";s:5:"56214";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:14:"r=site%2Flogin";s:11:"REQUEST_URI";s:58:"/postgrestry/stelara/frontend/web/index.php?r=site%2Flogin";s:11:"SCRIPT_NAME";s:43:"/postgrestry/stelara/frontend/web/index.php";s:8:"PHP_SELF";s:43:"/postgrestry/stelara/frontend/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1538779272.731;s:12:"REQUEST_TIME";i:1538779272;}s:3:"GET";a:1:{s:1:"r";s:10:"site/login";}s:4:"POST";a:3:{s:14:"_csrf-frontend";s:88:"UEa5YjZuvLG1ypLcMsrSaWU9kpL3lJmETpgeLslseQkdP_IYVwr__9C91Jdtn4EcKkrh5rn3zswX2y93-ykYYA==";s:9:"LoginForm";a:3:{s:8:"username";s:3:"mat";s:8:"password";s:12:"con123tra456";s:10:"rememberMe";s:1:"1";}s:12:"login-button";s:0:"";}s:6:"COOKIE";a:5:{s:16:"advanced-backend";s:26:"6p4gq0m25td48v7ckpm1vvpjk1";s:17:"_identity-backend";s:157:"806ab3da286ce18ea8f4c78be71aa2ced956357f8352c93d0b63f3748f97f937a:2:{i:0;s:17:"_identity-backend";i:1;s:46:"[7,"7YUhaO_0JpQlt3ARfulon5QEl3-e_ni4",2592000]";}";s:13:"_csrf-backend";s:139:"9054991882fac8bdeed50a81df1767b73e78d0f71a2cfaf1581d535975add49da:2:{i:0;s:13:"_csrf-backend";i:1;s:32:"ESqFNCrjjLGTDrdFccSQ2pLpWmWRqGCk";}";s:17:"advanced-frontend";s:26:"ftttvfvtdms1bubcqigquhjcvm";s:14:"_csrf-frontend";s:140:"1e90f9ae7da6a9beb1da3a16b1dead9692346bc6587874ea21adb6068caa82c9a:2:{i:0;s:14:"_csrf-frontend";i:1;s:32:"MyKzadCNewFK_USuOwstNcWHYC1Y2Eai";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:1:{s:7:"__flash";a:0:{}}}";s:3:"log";s:8763:"a:1:{s:8:"messages";a:16:{i:0;a:6:{i:0;s:59:"Bootstrap with mootensai\enhancedgii\Bootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1538779272.767581;i:4;a:0:{}i:5;i:2021072;}i:1;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1538779272.767612;i:4;a:0:{}i:5;i:2021608;}i:2;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1538779272.771253;i:4;a:0:{}i:5;i:2137968;}i:3;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1538779272.771272;i:4;a:0:{}i:5;i:2138552;}i:4;a:6:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1538779272.791451;i:4;a:0:{}i:5;i:2909016;}i:5;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1538779272.796435;i:4;a:0:{}i:5;i:3057680;}i:6;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1538779272.798374;i:4;a:0:{}i:5;i:3138128;}i:8;a:6:{i:0;s:29:"Route requested: 'site/login'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1538779272.800514;i:4;a:0:{}i:5;i:3234192;}i:9;a:6:{i:0;s:24:"Route to run: site/login";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1538779272.803823;i:4;a:0:{}i:5;i:3333936;}i:10;a:6:{i:0;s:66:"Running action: frontend\controllers\SiteController::actionLogin()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1538779272.806277;i:4;a:0:{}i:5;i:3534728;}i:11;a:6:{i:0;s:58:"Opening DB connection: pgsql:host=localhost;dbname=Stelara";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1538779272.870651;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4709912;}i:14;a:6:{i:0;s:2527:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1538779272.908607;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4826248;}i:17;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.060992;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4861680;}i:20;a:6:{i:0;s:63:"SELECT * FROM "user" WHERE ("username"='mat') AND ("status"=10)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.110673;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:5104344;}i:23;a:6:{i:0;s:86:"Rendering view file: C:\xampp\htdocs\postgrestry\Stelara\frontend\views\site\login.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1538779273.115265;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\postgrestry\Stelara\frontend\controllers\SiteController.php";s:4:"line";i:96;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5194480;}i:24;a:6:{i:0;s:88:"Rendering view file: C:\xampp\htdocs\postgrestry\Stelara\frontend\views\layouts\main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1538779273.134311;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"C:\xampp\htdocs\postgrestry\Stelara\frontend\controllers\SiteController.php";s:4:"line";i:96;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5889584;}}}";s:9:"profiling";s:12819:"a:3:{s:6:"memory";i:6142432;s:4:"time";d:0.3956949710845947;s:8:"messages";a:8:{i:12;a:6:{i:0;s:58:"Opening DB connection: pgsql:host=localhost;dbname=Stelara";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1538779272.870686;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4711272;}i:13;a:6:{i:0;s:58:"Opening DB connection: pgsql:host=localhost;dbname=Stelara";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1538779272.907208;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4712944;}i:15;a:6:{i:0;s:2527:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1538779272.908668;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4835488;}i:16;a:6:{i:0;s:2527:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.058537;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4848048;}i:18;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.061045;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4865904;}i:19;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.06688;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4867576;}i:21;a:6:{i:0;s:63:"SELECT * FROM "user" WHERE ("username"='mat') AND ("status"=10)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.110716;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:5106592;}i:22;a:6:{i:0;s:63:"SELECT * FROM "user" WHERE ("username"='mat') AND ("status"=10)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.112314;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:5108472;}}}";s:2:"db";s:11222:"a:1:{s:8:"messages";a:6:{i:15;a:6:{i:0;s:2527:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1538779272.908668;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4835488;}i:16;a:6:{i:0;s:2527:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != ''
+    AND c.relname = 'user'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.058537;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4848048;}i:18;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.061045;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4865904;}i:19;a:6:{i:0;s:872:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.06688;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:4867576;}i:21;a:6:{i:0;s:63:"SELECT * FROM "user" WHERE ("username"='mat') AND ("status"=10)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.110716;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:5106592;}i:22;a:6:{i:0;s:63:"SELECT * FROM "user" WHERE ("username"='mat') AND ("status"=10)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1538779273.112314;i:4;a:3:{i:0;a:5:{s:4:"file";s:58:"C:\xampp\htdocs\postgrestry\Stelara\common\models\User.php";s:4:"line";i:85;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:73;s:8:"function";s:14:"findByUsername";s:5:"class";s:18:"common\models\User";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:63:"C:\xampp\htdocs\postgrestry\Stelara\common\models\LoginForm.php";s:4:"line";i:44;s:8:"function";s:7:"getUser";s:5:"class";s:23:"common\models\LoginForm";s:4:"type";s:2:"->";}}i:5;i:5108472;}}}";s:6:"assets";s:3198:"a:7:{s:30:"yii\validators\ValidationAsset";a:9:{s:10:"sourcePath";s:62:"C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.validation.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:64:"C:\xampp\htdocs\postgrestry\Stelara\frontend\web\assets\61ca127a";s:7:"baseUrl";s:49:"/postgrestry/stelara/frontend/web/assets/61ca127a";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:62:"C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:64:"C:\xampp\htdocs\postgrestry\Stelara\frontend\web\assets\61ca127a";s:7:"baseUrl";s:49:"/postgrestry/stelara/frontend/web/assets/61ca127a";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:66:"C:\xampp\htdocs\postgrestry\Stelara/vendor/bower-asset/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:64:"C:\xampp\htdocs\postgrestry\Stelara\frontend\web\assets\12c29eef";s:7:"baseUrl";s:49:"/postgrestry/stelara/frontend/web/assets/12c29eef";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:27:"yii\widgets\ActiveFormAsset";a:9:{s:10:"sourcePath";s:62:"C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.activeForm.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:64:"C:\xampp\htdocs\postgrestry\Stelara\frontend\web\assets\61ca127a";s:7:"baseUrl";s:49:"/postgrestry/stelara/frontend/web/assets/61ca127a";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:24:"frontend\assets\AppAsset";a:9:{s:8:"basePath";s:48:"C:/xampp/htdocs/postgrestry/Stelara/frontend/web";s:7:"baseUrl";s:33:"/postgrestry/stelara/frontend/web";s:3:"css";a:1:{i:0;s:12:"css/site.css";}s:2:"js";a:0:{}s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:10:"sourcePath";N;s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\bootstrap\BootstrapAsset";a:9:{s:10:"sourcePath";s:69:"C:\xampp\htdocs\postgrestry\Stelara/vendor/bower-asset/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:64:"C:\xampp\htdocs\postgrestry\Stelara\frontend\web\assets\70a56cd7";s:7:"baseUrl";s:49:"/postgrestry/stelara/frontend/web/assets/70a56cd7";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"yii\bootstrap\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:69:"C:\xampp\htdocs\postgrestry\Stelara/vendor/bower-asset/bootstrap/dist";s:2:"js";a:1:{i:0;s:15:"js/bootstrap.js";}s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:64:"C:\xampp\htdocs\postgrestry\Stelara\frontend\web\assets\70a56cd7";s:7:"baseUrl";s:49:"/postgrestry/stelara/frontend/web/assets/70a56cd7";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1538779272.747229;s:3:"end";d:1538779273.143028;s:6:"memory";i:6142432;}";s:4:"user";s:2:"N;";s:6:"router";s:205:"a:1:{s:8:"messages";a:1:{i:7;a:6:{i:0;s:56:"Pretty URL not enabled. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1538779272.800476;i:4;a:0:{}i:5;i:3234144;}}}";s:7:"summary";a:9:{s:3:"tag";s:13:"5bb7e888c2a1f";s:3:"url";s:74:"http://localhost/postgrestry/stelara/frontend/web/index.php?r=site%2Flogin";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:3:"::1";s:4:"time";d:1538779272.731;s:10:"statusCode";i:200;s:8:"sqlCount";i:3;s:9:"mailCount";i:0;}s:10:"exceptions";a:0:{}}
