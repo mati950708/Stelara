@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0ffce5-305f-46b6-a7e9-5ce3f4090858" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/RegistroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/RegistroController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/registro/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/registro/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/main-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/RegistroController.php___jb_tmp___" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/RegistroController.php___jb_tmp___" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +42,8 @@
       <file leaf-file-name="RegistroController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/controllers/RegistroController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+            <state relative-caret-position="294">
+              <caret line="155" column="34" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -55,7 +51,9 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/views/registro/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1323" />
+            <state relative-caret-position="210">
+              <caret line="113" column="43" lean-forward="true" selection-start-line="113" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -589,12 +587,12 @@
       <workItem from="1541118707455" duration="2729000" />
       <workItem from="1541665445534" duration="16212000" />
       <workItem from="1542295360269" duration="16792000" />
-      <workItem from="1542411620983" duration="1880000" />
+      <workItem from="1542411620983" duration="2605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="688871000" />
+    <option name="totallyTimeSpent" value="689596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -965,13 +963,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/registro/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1323" />
+        <state relative-caret-position="210">
+          <caret line="113" column="43" lean-forward="true" selection-start-line="113" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/RegistroController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+        <state relative-caret-position="294">
+          <caret line="155" column="34" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
         </state>
       </provider>
     </entry>
