@@ -37,6 +37,15 @@ class ClienteController extends Controller
      */
     public function actionIndex()
     {
+        if (Yii::$app->user->identity) {
+            $userE = Yii::$app->db2->createCommand("SELECT dblink_user_exist(" . Yii::$app->user->identity->getId() . ");")->queryAll()[0]['dblink_user_exist'];
+            if ($userE == 0){
+                Yii::$app->user->logout();
+                return $this->redirect(['site/login']);
+            }
+        }else{
+            return $this->redirect(['site/login']);
+        }
         $searchModel = new ClienteSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         $dataProvider->query->andFilterWhere(['>', 'id', '1'])->all();
@@ -75,6 +84,13 @@ class ClienteController extends Controller
             $model->id = Yii::$app->db2->createCommand("SELECT nextval('cliente_id_seq');")->queryAll()[0]['nextval'];
             $model->estado = 0;
 
+            if ($model->save()) {
+                Yii::$app->session->setFlash('success', "Cliente ".$model->nombre.", guardado.");
+            }else{
+                Yii::$app->session->setFlash('danger', "Cliente ".$model->nombre.", NO SE PUDO guardar.");
+                echo "<script>window.history.back();</script>";
+                die;
+            }
             $bit = new Bitacora();
             $bit->id = Yii::$app->db2->createCommand("SELECT nextval('bitacora_id_seq');")->queryAll()[0]['nextval'];
             $bit->fecha = date('Y-m-d');
@@ -85,10 +101,8 @@ class ClienteController extends Controller
             };
 
 
-            if ($model->save()) {
-                echo "<script>window.history.back();</script>";
-                die;
-            }
+            echo "<script>window.history.back();</script>";
+            die;
         }
 
         return $this->renderAjax('create', [
@@ -107,7 +121,15 @@ class ClienteController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())) {
+
+            if ($model->save()) {
+                Yii::$app->session->setFlash('warning', "Cliente ".$model->nombre.", actualizado.");
+            }else{
+                Yii::$app->session->setFlash('danger', "Cliente ".$model->nombre.", NO SE PUDO actualizar.");
+                echo "<script>window.history.back();</script>";
+                die;
+            }
 
             $bit = new Bitacora();
             $bit->id = Yii::$app->db2->createCommand("SELECT nextval('bitacora_id_seq');")->queryAll()[0]['nextval'];
@@ -139,7 +161,13 @@ class ClienteController extends Controller
         //$this->findModel($id)->delete();
         $model = $this->findModel($id);
         $model->estado = 1;
-        $model->save();
+        if ($model->save()) {
+            Yii::$app->session->setFlash('danger', "Cliente ".$model->nombre.", eliminado.");
+        }else{
+            Yii::$app->session->setFlash('info', "Cliente ".$model->nombre.", NO SE PUDO eliminar.");
+            echo "<script>window.history.back();</script>";
+            die;
+        }
 
         $bit = new Bitacora();
         $bit->id = Yii::$app->db2->createCommand("SELECT nextval('bitacora_id_seq');")->queryAll()[0]['nextval'];
@@ -151,6 +179,7 @@ class ClienteController extends Controller
         };
 
         echo "<script>window.history.back();</script>";
+        die;
     }
 
     /**

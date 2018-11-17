@@ -39,6 +39,17 @@ class RegistroController extends Controller
      */
     public function actionIndex()
     {
+
+        if (Yii::$app->user->identity) {
+            $userE = Yii::$app->db2->createCommand("SELECT dblink_user_exist(" . Yii::$app->user->identity->getId() . ");")->queryAll()[0]['dblink_user_exist'];
+            if ($userE == 0){
+                Yii::$app->user->logout();
+                return $this->redirect(['site/login']);
+            }
+        }else{
+            return $this->redirect(['site/login']);
+        }
+
         $searchModel = new RegistroSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
@@ -77,6 +88,14 @@ class RegistroController extends Controller
             $producto = Producto::find()->where(['id' => $model->producto_id])->one();
             $model->precio_venta = $producto->precio_unit;
             $model->precio_costo= $producto->costo_unit;
+
+            if ($model->save()) {
+                Yii::$app->session->setFlash('success', "Registro de ".$model->producto->nombre.", guardado.");
+            }else{
+                Yii::$app->session->setFlash('danger', "Registro de ".$model->producto->nombre.", NO SE PUDO guardar.");
+                echo "<script>window.history.back();</script>";
+                die;
+            }
 
 
             if($model->tipo_r_id == 1){
@@ -122,21 +141,42 @@ class RegistroController extends Controller
 
         if ($model->load(Yii::$app->request->post())) {
 
+            if ($model->save()) {
+                Yii::$app->session->setFlash('warning', "Registro de ".$model->producto->nombre.", actualizado.");
+            }else{
+                Yii::$app->session->setFlash('danger', "Registro de ".$model->producto->nombre.", NO SE PUDO actualizar.");
+                echo "<script>window.history.back();</script>";
+                die;
+            }
+
             $extra = $models->cantidad - $model->cantidad;
 
-            $producto = Producto::find()->where(['id' => $model->producto_id])->one();
+            $producto = $model->producto;
 
-            if ($model->tipo_r_id != $models->tipo_r_id){
-                if($model->tipo_r_id == 1){
-                    $producto->cantidad_actual = $producto->cantidad_actual + $models->cantidad + $model->cantidad;
-                }else if ($models->tipo_r_id == 1){
-                    $producto->cantidad_actual = $producto->cantidad_actual - $models->cantidad - $model->cantidad;
+
+            if ($model->producto_id == $models->producto_id) {
+                if ($model->tipo_r_id != $models->tipo_r_id) {
+                    if ($model->tipo_r_id == 1) {
+                        $producto->cantidad_actual = $producto->cantidad_actual + $models->cantidad + $model->cantidad;
+                    } else if ($models->tipo_r_id == 1) {
+                        $producto->cantidad_actual = $producto->cantidad_actual - $models->cantidad - $model->cantidad;
+                    }
+                } else {
+                    if ($model->tipo_r_id == 1) {
+                        $producto->cantidad_actual = $producto->cantidad_actual - $extra;
+                    } else {
+                        $producto->cantidad_actual = $producto->cantidad_actual + $extra;
+                    }
                 }
             }else{
-                if ($model->tipo_r_id == 1) {
-                    $producto->cantidad_actual = $producto->cantidad_actual - $extra;
+                $productoAnterior = $models->producto;
+
+                if ($models->tipo_r_id == 1) {
+                    $productoAnterior->cantidad_actual = $productoAnterior->cantidad_actual - $models->cantidad;
+                    $producto->cantidad_actual = $producto->cantidad_actual + $model->cantidad;
                 } else {
-                    $producto->cantidad_actual = $producto->cantidad_actual + $extra;
+                    $productoAnterior->cantidad_actual = $productoAnterior->cantidad_actual + $models->cantidad;
+                    $producto->cantidad_actual = $producto->cantidad_actual - $model->cantidad;
                 }
             }
 
@@ -146,17 +186,21 @@ class RegistroController extends Controller
             $bit->fecha = date('Y-m-d');
             $bit->descripcion = 'Editar Registro: '.$model->fecha.' Producto: '.$producto->nombre.'.';
 
-
-            if ($model->save()) {
-                if(!$bit->save()){
-                    print_r($bit->getErrors());
-                    die;
-                };
-                $producto->save();
+            if(!$bit->save()){
+                print_r($bit->getErrors());
+                die;
+            };
+            if(!$producto->save()){
+                print_r($producto->getErrors());
+                die;
+            };
+            if(!$productoAnterior->save()){
+                print_r($productoAnterior->getErrors());
+                die;
+            };
 
                 echo "<script>window.history.back();</script>";
                 die;
-            }
         }
 
         return $this->renderAjax('update', [
@@ -313,7 +357,6 @@ class RegistroController extends Controller
             'allModels' => $res,
 
             'sort' => [
-
                 'attributes' => [
                     'Nombre',
                     'Entrada',

@@ -5,29 +5,48 @@
 $this->title = 'My Yii Application';
 
 ?>
+ <div class="row" style="  margin-top:-120px;margin-bottom:70px; "> 
+        <center>     
+<img src=" ..\views\layouts\img\stelara.jpg" ">
+</center>
+        </div>  
+
 <div class="site-index">
+    <h1> Panel de Administración</h1>
 
-    <div class="jumbotron">
-        <h1>Levainco</h1>
-
-        <p><a class="btn btn-lg btn-success" href="index.php?r=product-has-user">Get started today</a></p>
-
-    </div>
 
     <div class="body-content">
+        
          <div class="row">
-             <div class="col-lg-4">
-                 <p><a class="btn btn-lg btn-info" href="index.php?r=situation">Situations</a></p>
-             </div>
-             <div class="col-lg-4">
-                 <div class="jumbotron">
-                     <p><a class="btn btn-small btn-primary" style="margin: auto" href="index.php?r=product">Products</a></p>
-                 </div>
-             </div>
-             <div class="col-lg-4">
-                 <p><a class="btn btn-lg btn-info pull-right" href="index.php?r=shop">Shops</a></p>
-             </div>
-         </div>
-        <hr class="btn-info">
+            <div class="col-md-6" onclick="location.href='index.php?r=registro';" >
+              <div class="card mb-6 shadow-sm" >
+                
+                    <center>  <p>    <img src="..\views\layouts\img\registro.jpg" width="300" height="300" ></p>
+                 </center>
+            
+              </div>
+            </div>
+            <div class="col-md-6"  onclick="location.href='index.php?r=cliente';">
+              <div class="card mb-6 shadow-sm">
+                <center> <p>     <img src=" ..\views\layouts\img\clientes.jpg" width="300" height="300"> </p>
+                     </center>
+              </div>
+            </div>
+            <div class="col-md-6" onclick="location.href='index.php?r=producto';">
+              <div class="card mb-6 shadow-sm">
+               <center>   <p>   <img src="  ..\views\layouts\img\productos.jpg" width="300" height="300"></p>
+                  </center>
+              </div>
+            </div>
+
+            <div class="col-md-6" onclick="location.href='index.php?r=proveedor';">
+              <div class="card mb-6 shadow-sm"></p>
+              <center>    <p>   <img src=" ..\views\layouts\img\proveedores.jpg" width="300" height="300"></p>
+                  </center>
+              </div>
+            </div>
+          </div>
     </div>
+
+   
 </div>

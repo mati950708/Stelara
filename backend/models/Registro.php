@@ -70,9 +70,9 @@ class Registro extends \yii\db\ActiveRecord
             'fecha' => Yii::t('app', 'Fecha'),
             'estado' => Yii::t('app', 'Estado'),
             'observaciones' => Yii::t('app', 'Observaciones'),
-            'producto_id' => Yii::t('app', 'Producto ID'),
-            'tipo_r_id' => Yii::t('app', 'Tipo R ID'),
-            'cliente_id' => Yii::t('app', 'Cliente ID'),
+            'producto_id' => Yii::t('app', 'Producto'),
+            'tipo_r_id' => Yii::t('app', 'Tipo de Registro'),
+            'cliente_id' => Yii::t('app', 'Cliente'),
             'precio_venta' => Yii::t('app', 'Precio Venta'),
             'precio_costo' => Yii::t('app', 'Precio Costo'),
         ];
