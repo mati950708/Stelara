@@ -47757,3 +47757,1557 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1542393800.408
     'REQUEST_TIME' => 1542393800
 ]
+2018-11-17 00:26:34 [::1][1][atu5kc37fjao8kdfe5d5b6vl5l][error][yii\base\ErrorException:1] yii\base\ErrorException: Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\filters\AccessRule.php:25
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-11-17 00:26:15 [::1][1][atu5kc37fjao8kdfe5d5b6vl5l][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'atu5kc37fjao8kdfe5d5b6vl5l'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => '929000f86367c3f56f5134ef962744fbb30ee306621962a1714f0cee7fbd95a4a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Q6asqNqkp5mYhGiCjeaysQc_L5SLPpRk\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=atu5kc37fjao8kdfe5d5b6vl5l; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=929000f86367c3f56f5134ef962744fbb30ee306621962a1714f0cee7fbd95a4a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Q6asqNqkp5mYhGiCjeaysQc_L5SLPpRk%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '51492'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542410759.265
+    'REQUEST_TIME' => 1542410759
+]
+2018-11-17 05:57:14 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:197
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(197): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('2')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 05:57:12 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '2'
+]
+
+$_POST = [
+    '_csrf-backend' => 'MfJXjCm_ySbGEGnVRYBZeLVqqIDSWZ83H5tDgPUwigJZnifHGO2Md6hzBJ8n7xE01j-RsJVuwARtznPJtEHEMQ=='
+    'Registro' => [
+        'cantidad' => '500'
+        'fecha' => '2018-10-29'
+        'tipo_r_id' => '1'
+        'producto_id' => '2'
+        'cliente_id' => '1'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '274'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56132'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=2'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542430632.432
+    'REQUEST_TIME' => 1542430632
+]
+2018-11-17 05:57:29 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:197
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(197): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('39')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 05:57:28 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '39'
+]
+
+$_POST = [
+    '_csrf-backend' => 'QpwcBnehaNGIHB9hFZHy4xmjfz8va3s5k7X-CVpMAyoq8GxNRvMtgOZ_cit3_rqvevZGD2hcJArh4M5AGz1NGQ=='
+    'Registro' => [
+        'cantidad' => '10'
+        'fecha' => '2018-10-15'
+        'tipo_r_id' => '3'
+        'producto_id' => '2'
+        'cliente_id' => '1'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '273'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56141'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=39'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=39'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542430648.821
+    'REQUEST_TIME' => 1542430648
+]
+2018-11-17 05:57:57 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:197
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(197): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('3')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 05:57:56 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '3'
+]
+
+$_POST = [
+    '_csrf-backend' => 'VGNfQjs0XP_ug91pUIKVDl8MQdGYIBYYVOZ1mh_6LIo8Dy8JCmYZroDgsCMy7d1CPFl44d8XSSsms0XTXotiuQ=='
+    'Registro' => [
+        'cantidad' => '30'
+        'fecha' => '2018-10-09'
+        'tipo_r_id' => '3'
+        'producto_id' => '2'
+        'cliente_id' => '1'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '273'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56164'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=3'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=3'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542430676.91
+    'REQUEST_TIME' => 1542430676
+]
+2018-11-17 05:58:40 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:197
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(197): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('5')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 05:58:40 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '5'
+]
+
+$_POST = [
+    '_csrf-backend' => 'EuQZmUCL6GVaeDXBjrlGq2zz0jYLXi3mvCvd03acoQx6iGnScdmtNDQbWIvs1g7nD6brBkxpctXOfu2aN-3vPw=='
+    'Registro' => [
+        'cantidad' => '10'
+        'fecha' => '2018-11-06'
+        'tipo_r_id' => '3'
+        'producto_id' => '2'
+        'cliente_id' => '1'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '273'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56191'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=5'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=5'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542430720.508
+    'REQUEST_TIME' => 1542430720
+]
+2018-11-17 05:59:51 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:198
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(198): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 198, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('40')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 05:59:51 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '40'
+]
+
+$_POST = [
+    '_csrf-backend' => '5eMUZMj5WyCeuLBlCAQVkz5AkFOTzG1Y2Mn5DuVJOV2Nj2Qv-asecfDb3S9qa13fXRWpY9T7MmuqnMlHpDh3bg=='
+    'Registro' => [
+        'cantidad' => '200'
+        'fecha' => '2018-10-22'
+        'tipo_r_id' => '2'
+        'producto_id' => '2'
+        'cliente_id' => '5'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '274'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56229'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=40'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=40'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542430791.484
+    'REQUEST_TIME' => 1542430791
+]
+2018-11-17 06:00:27 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:204
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(204): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 204, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('40')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 06:00:27 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '40'
+]
+
+$_POST = [
+    '_csrf-backend' => '5eMUZMj5WyCeuLBlCAQVkz5AkFOTzG1Y2Mn5DuVJOV2Nj2Qv-asecfDb3S9qa13fXRWpY9T7MmuqnMlHpDh3bg=='
+    'Registro' => [
+        'cantidad' => '200'
+        'fecha' => '2018-10-22'
+        'tipo_r_id' => '2'
+        'producto_id' => '2'
+        'cliente_id' => '5'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '274'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56240'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=40'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=40'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542430827.608
+    'REQUEST_TIME' => 1542430827
+]
+2018-11-17 06:00:35 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:204
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(204): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 204, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('7')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 06:00:34 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '7'
+]
+
+$_POST = [
+    '_csrf-backend' => 'CVfnDaLk3OuJhTkqZ0PYG9eltILmWZcu8vmjRH3WUg5hO5dGk7aZuufmVGAFLJBXtPCNsqFuyB2ArJMNPKccPQ=='
+    'Registro' => [
+        'cantidad' => '50'
+        'fecha' => '2018-10-11'
+        'tipo_r_id' => '2'
+        'producto_id' => '2'
+        'cliente_id' => '5'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '273'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56241'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=7'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=7'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542430834.777
+    'REQUEST_TIME' => 1542430834
+]
+2018-11-17 06:00:46 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:205
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(205): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 205, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('7')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 06:00:46 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '7'
+]
+
+$_POST = [
+    '_csrf-backend' => 'CVfnDaLk3OuJhTkqZ0PYG9eltILmWZcu8vmjRH3WUg5hO5dGk7aZuufmVGAFLJBXtPCNsqFuyB2ArJMNPKccPQ=='
+    'Registro' => [
+        'cantidad' => '50'
+        'fecha' => '2018-10-11'
+        'tipo_r_id' => '2'
+        'producto_id' => '2'
+        'cliente_id' => '5'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '273'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56253'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=7'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=7'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542430846.494
+    'REQUEST_TIME' => 1542430846
+]
+2018-11-17 06:00:59 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:200
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(200): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 200, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('8')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 06:00:59 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '8'
+]
+
+$_POST = [
+    '_csrf-backend' => 'dPAOemnPli2pFYb4jrdtua8o5s3zuM8Nj6WcqJLom6McnH4xWJ3TfMd267Ls2CX1zH3f_bSPkD798Kzh05nVkA=='
+    'Registro' => [
+        'cantidad' => '50'
+        'fecha' => '2019-08-16'
+        'tipo_r_id' => '2'
+        'producto_id' => '2'
+        'cliente_id' => '5'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '273'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56258'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=8'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=8'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542430859.281
+    'REQUEST_TIME' => 1542430859
+]
+2018-11-17 06:02:42 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:198
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(198): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 198, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('12')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 06:02:42 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '12'
+]
+
+$_POST = [
+    '_csrf-backend' => 'd6KIF8qHhreaZGG2dfD82UN2q1BU5f63KFtrrAIP9bMfzvhc-9XD5vQHDPwXn7SVICOSYBPSoYRaDlvlQ367gA=='
+    'Registro' => [
+        'cantidad' => '100'
+        'fecha' => '2018-10-30'
+        'tipo_r_id' => '1'
+        'producto_id' => '4'
+        'cliente_id' => '1'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '274'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56305'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=12'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=12'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542430962.09
+    'REQUEST_TIME' => 1542430962
+]
+2018-11-17 06:03:07 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:198
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(198): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 198, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('12')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 06:03:06 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '12'
+]
+
+$_POST = [
+    '_csrf-backend' => 'd6KIF8qHhreaZGG2dfD82UN2q1BU5f63KFtrrAIP9bMfzvhc-9XD5vQHDPwXn7SVICOSYBPSoYRaDlvlQ367gA=='
+    'Registro' => [
+        'cantidad' => '100'
+        'fecha' => '2018-10-30'
+        'tipo_r_id' => '1'
+        'producto_id' => '4'
+        'cliente_id' => '1'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '274'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56311'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=12'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=12'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542430986.883
+    'REQUEST_TIME' => 1542430986
+]
+2018-11-17 06:10:04 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:200
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(200): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 200, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('15')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 06:10:04 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '15'
+]
+
+$_POST = [
+    '_csrf-backend' => 'Hg8dXi4wCbmpL5mmgQL87J7089uhWCNRGa7MpToEbdF2Y20VH2JM6MdM9OzjbbSg_aHK6-ZvfGJr-_zse3Uj4g=='
+    'Registro' => [
+        'cantidad' => '200'
+        'fecha' => '2018-11-05'
+        'tipo_r_id' => '1'
+        'producto_id' => '7'
+        'cliente_id' => '1'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '274'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56452'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=15'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=15'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542431404.016
+    'REQUEST_TIME' => 1542431404
+]
+2018-11-17 06:13:07 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:200
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(200): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 200, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('16')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 06:13:06 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '16'
+]
+
+$_POST = [
+    '_csrf-backend' => '0PG6rPnb6SE50UDD4pvznLO5XBo5nE0aYocL3KkVb5e4ncrnyImscFeyLYmA9LvQ0OxlKn6rEikQ0juV6GQhpA=='
+    'Registro' => [
+        'cantidad' => '180'
+        'fecha' => '2018-11-05'
+        'tipo_r_id' => '2'
+        'producto_id' => '7'
+        'cliente_id' => '5'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '274'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56474'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=16'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=16'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542431586.823
+    'REQUEST_TIME' => 1542431586
+]
+2018-11-17 06:13:23 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: productoAnterior in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:200
+Stack trace:
+#0 C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php(200): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 200, Array)
+#1 [internal function]: backend\controllers\RegistroController->actionUpdate('16')
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#6 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-17 06:13:22 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '16'
+]
+
+$_POST = [
+    '_csrf-backend' => '0PG6rPnb6SE50UDD4pvznLO5XBo5nE0aYocL3KkVb5e4ncrnyImscFeyLYmA9LvQ0OxlKn6rEikQ0juV6GQhpA=='
+    'Registro' => [
+        'cantidad' => '180'
+        'fecha' => '2018-11-05'
+        'tipo_r_id' => '2'
+        'producto_id' => '7'
+        'cliente_id' => '5'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '274'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56481'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=16'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=16'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542431602.943
+    'REQUEST_TIME' => 1542431602
+]
+2018-11-17 06:13:57 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][Error] Error: Call to undefined function backend\controllers\isNull() in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:200
+Stack trace:
+#0 [internal function]: backend\controllers\RegistroController->actionUpdate('16')
+#1 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2018-11-17 06:13:57 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '16'
+]
+
+$_POST = [
+    '_csrf-backend' => '0PG6rPnb6SE50UDD4pvznLO5XBo5nE0aYocL3KkVb5e4ncrnyImscFeyLYmA9LvQ0OxlKn6rEikQ0juV6GQhpA=='
+    'Registro' => [
+        'cantidad' => '180'
+        'fecha' => '2018-11-05'
+        'tipo_r_id' => '2'
+        'producto_id' => '7'
+        'cliente_id' => '5'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '274'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56486'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=16'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=16'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542431637.155
+    'REQUEST_TIME' => 1542431637
+]
+2018-11-17 06:15:10 [::1][1][agkqark3ufnidlr0tj0qecvmos][error][Error] Error: Call to a member function save() on integer in C:\xampp\htdocs\postgrestry\Stelara\backend\controllers\RegistroController.php:202
+Stack trace:
+#0 [internal function]: backend\controllers\RegistroController->actionUpdate('17')
+#1 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('update', Array)
+#4 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('registro/update', Array)
+#5 C:\xampp\htdocs\postgrestry\Stelara\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\postgrestry\Stelara\backend\web\index.php(17): yii\base\Application->run()
+#7 {main}
+2018-11-17 06:15:10 [::1][1][agkqark3ufnidlr0tj0qecvmos][info][application] $_GET = [
+    'r' => 'registro/update'
+    'id' => '17'
+]
+
+$_POST = [
+    '_csrf-backend' => 'cjVOBnhGCaInvpQQfz3qfHDG_4SHIfUPqdDhIWLSRZUaWT5NSRRM80nd-VodUqIwE5PGtMAWqjzbhdFoI6MLpg=='
+    'Registro' => [
+        'cantidad' => '20'
+        'fecha' => '2018-11-03'
+        'tipo_r_id' => '3'
+        'producto_id' => '7'
+        'cliente_id' => '1'
+        'observaciones' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pw32Qp3N2YACpc610crwawMJ9D4bNV5z\";}'
+    'advanced-frontend' => '5u53t81o8o0opuafjhl7ctbodk'
+    'advanced-backend' => 'agkqark3ufnidlr0tj0qecvmos'
+    '_identity-backend' => '5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"N1uU0n6N47vYNBfWLuuruWneJh5332IO\",2592000]\";}'
+    '_csrf-backend' => 'f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"hlpK1REQncmJboHLcU90G7_3rU0IAqN3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/postgrestry/stelara/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '273'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/postgrestry/stelara/backend/web/index.php?r=registro'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-US,es-419;q=0.9,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=e9f2385aefbdebacc00d41e0d1383f34d278bd75c48a8523e0c74ba39918bbf9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pw32Qp3N2YACpc610crwawMJ9D4bNV5z%22%3B%7D; advanced-frontend=5u53t81o8o0opuafjhl7ctbodk; advanced-backend=agkqark3ufnidlr0tj0qecvmos; _identity-backend=5578e9755bcb068e16816fd2fbaa40f013636b5e2548fa0f820b2078c6d71377a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22N1uU0n6N47vYNBfWLuuruWneJh5332IO%22%2C2592000%5D%22%3B%7D; _csrf-backend=f6fe0f37ca9cf4e70109371ee3afa4405c1cde3c1055a7a9f084accfff8d3713a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22hlpK1REQncmJboHLcU90G7_3rU0IAqN3%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\xampp\\php;C:\\composer;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;\"C:\\Program Files\\Java\\jre6\\bin;F:\\JDK\\bin;\";\"C:\\ProgramFiles\\Java\\jdk1.8.0_60\\bin;C:\\ProgramFiles\\nodejs;C:\\Gradle\\gradle-4.0\\bin;C:\\ANDROID_SDK\\tools;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\system32; C:\\WINDOWS; C:\\WINDOWS\\System32\\Wbem;\";C:\\Program Files\\nodejs\\;C:\\Users\\TuUsuario\\AppData\\Roaming\\npm;angular-cli\\bin;;C:\\PostgreSQL\\pg10\\bin;C:\\Ruby24-x64\\bin;C:\\Users\\mati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mati\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Gradle\\gradle-4.8.1\\bin;\"C:\\Ruby23\\bin;C:\\Users\\kumar\\AppData\\Roaming\\npm;C:\\ANDROID_SDK\\tools;%SystemRo\";C:\\Users\\mati\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.1.0g PHP/7.2.4'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/postgrestry/Stelara/backend/web/index.php'
+    'REMOTE_PORT' => '56500'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=registro%2Fupdate&id=17'
+    'REQUEST_URI' => '/postgrestry/stelara/backend/web/index.php?r=registro%2Fupdate&id=17'
+    'SCRIPT_NAME' => '/postgrestry/stelara/backend/web/index.php'
+    'PHP_SELF' => '/postgrestry/stelara/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1542431710.032
+    'REQUEST_TIME' => 1542431710
+]
