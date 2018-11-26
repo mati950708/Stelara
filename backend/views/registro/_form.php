@@ -44,7 +44,7 @@ use dosamigos\datepicker\DatePicker;
                 <?php
                 if ($model->isNewRecord){
                 echo $form->field($model, 'producto_id')->dropDownList(
-                    \yii\helpers\ArrayHelper::map(\backend\models\Producto::find()->andFilterWhere(['=', 'estado', '0'])->andFilterWhere(['>', 'cantidad_actual', '0'])->all(), 'id', 'nombre'),
+                    \yii\helpers\ArrayHelper::map(\backend\models\Producto::find()->andFilterWhere(['=', 'estado', '0'])->all(), 'id', 'nombre'),
                     [
                         'prompt' => 'Elige el producto'
                     ]
@@ -62,7 +62,7 @@ use dosamigos\datepicker\DatePicker;
             </div>
             <div class="col-lg-4">
                 <?= $form->field($model, 'cliente_id')->dropDownList(
-                    \yii\helpers\ArrayHelper::map(\backend\models\Cliente::find()->all(), 'id', 'nombre'),
+                    \yii\helpers\ArrayHelper::map(\backend\models\Cliente::find()->andFilterWhere(['=', 'estado', '0'])->all(), 'id', 'nombre'),
                     [
                         'prompt' => 'Elige el cliente'
                     ]

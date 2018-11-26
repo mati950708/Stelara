@@ -62,7 +62,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute'=>'proveedor_id',
                 'value'=>'proveedor.nombre',
                 'filterType'=>GridView::FILTER_SELECT2,
-                'filter'=>ArrayHelper::map(backend\models\Proveedor::find()->orderBy('nombre')->all(), 'id', 'nombre'),
+                'filter'=>ArrayHelper::map(backend\models\Proveedor::find()->andFilterWhere(['=', 'estado', '0'])->orderBy('nombre')->all(), 'id', 'nombre'),
                 'filterWidgetOptions'=>[
                     'pluginOptions'=>['allowClear'=>true],
                 ],

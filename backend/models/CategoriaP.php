@@ -37,7 +37,7 @@ class CategoriaP extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id'], 'required'],
+            [['id', 'nombre'], 'required'],
             [['id', 'estado'], 'default', 'value' => null],
             [['id', 'estado'], 'integer'],
             [['nombre'], 'string', 'max' => 45],

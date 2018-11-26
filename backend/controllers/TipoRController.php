@@ -35,16 +35,6 @@ class TipoRController extends Controller
      */
     public function actionIndex()
     {
-
-        if (Yii::$app->user->identity) {
-            $userE = Yii::$app->db2->createCommand("SELECT dblink_user_exist(" . Yii::$app->user->identity->getId() . ");")->queryAll()[0]['dblink_user_exist'];
-            if ($userE == 0){
-                Yii::$app->user->logout();
-                return $this->redirect(['site/login']);
-            }
-        }else{
-            return $this->redirect(['site/login']);
-        }
         $searchModel = new TipoRSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 

@@ -37,15 +37,6 @@ class MateriaPrimaController extends Controller
      */
     public function actionIndex()
     {
-        if (Yii::$app->user->identity) {
-            $userE = Yii::$app->db2->createCommand("SELECT dblink_user_exist(" . Yii::$app->user->identity->getId() . ");")->queryAll()[0]['dblink_user_exist'];
-            if ($userE == 0){
-                Yii::$app->user->logout();
-                return $this->redirect(['site/login']);
-            }
-        }else{
-            return $this->redirect(['site/login']);
-        }
         $searchModel = new MateriaPrimaSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
@@ -78,6 +69,20 @@ class MateriaPrimaController extends Controller
         $model = new MateriaPrima();
 
         if ($model->load(Yii::$app->request->post())) {
+
+            $model->nombre = rtrim(ltrim($model->nombre));
+            $model->nombre = rtrim(ltrim($model->descripcion));
+            $model->nombre = rtrim(ltrim($model->observaciones));
+
+            $nombre = strtoupper($model->nombre);
+            $cats = MateriaPrima::find()->andFilterWhere(['=', 'proveedor_id', $model->proveedor_id])->all();
+            foreach ($cats AS $cat){
+                if (trim(strtoupper($cat->nombre)) == trim($nombre)){
+                    Yii::$app->session->setFlash('danger', "Materia prima: ".$model->nombre.", por ".$model->proveedor->nombre.", YA EXISTE.");
+                    echo "<script>window.history.back();</script>";
+                    die;
+                }
+            }
             $model->id = Yii::$app->db2->createCommand("SELECT nextval('proveedor_id_seq');")->queryAll()[0]['nextval'];
 
             if ($model->save()) {
@@ -115,8 +120,23 @@ class MateriaPrimaController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $models = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post())) {
+
+            $model->nombre = rtrim(ltrim($model->nombre));
+            $model->nombre = rtrim(ltrim($model->descripcion));
+            $model->nombre = rtrim(ltrim($model->observaciones));
+
+            $nombre = strtoupper($model->nombre);
+            $cats = MateriaPrima::find()->andFilterWhere(['!=', 'id', $model->id])->andFilterWhere(['!=', 'proveedor_id', $models->proveedor_id])->all();
+            foreach ($cats AS $cat){
+                if (trim(strtoupper($cat->nombre)) == trim($nombre)){
+                    Yii::$app->session->setFlash('danger', "Producto ".$model->nombre.", YA EXISTE.");
+                    echo "<script>window.history.back();</script>";
+                    die;
+                }
+            }
             if ($model->save()) {
                 Yii::$app->session->setFlash('warning', "Materia prima ".$model->nombre.", actualizada.");
             }else{

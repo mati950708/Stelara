@@ -17,7 +17,7 @@ use yii\widgets\ActiveForm;
         </div>
         <div class="col-lg-6">
             <?= $form->field($model, 'proveedor_id')->dropDownList(
-                \yii\helpers\ArrayHelper::map(\backend\models\Proveedor::find()->all(), 'id', 'nombre'),
+                \yii\helpers\ArrayHelper::map(\backend\models\Proveedor::find()->andFilterWhere(['=', 'estado', '0'])->all(), 'id', 'nombre'),
                 [
                     'prompt' => 'Elige el proveedor'
                 ]

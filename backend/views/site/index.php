@@ -13,7 +13,8 @@ $this->title = 'My Yii Application';
         </div>  
 
 <div class="site-index">
-    <h1> Panel de Administración</h1>
+    <h1 align="center"> Panel de Administración</h1>
+    <br/>;
 
     <div class="body-content">
         

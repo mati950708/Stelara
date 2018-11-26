@@ -40,15 +40,6 @@ class RegistroController extends Controller
     public function actionIndex()
     {
 
-        if (Yii::$app->user->identity) {
-            $userE = Yii::$app->db2->createCommand("SELECT dblink_user_exist(" . Yii::$app->user->identity->getId() . ");")->queryAll()[0]['dblink_user_exist'];
-            if ($userE == 0){
-                Yii::$app->user->logout();
-                return $this->redirect(['site/login']);
-            }
-        }else{
-            return $this->redirect(['site/login']);
-        }
 
         $searchModel = new RegistroSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
@@ -82,20 +73,16 @@ class RegistroController extends Controller
         $model = new Registro();
 
         if ($model->load(Yii::$app->request->post())) {
+
+            $model->nombre = rtrim(ltrim($model->fecha));
+            $model->nombre = rtrim(ltrim($model->observaciones));
+
             $model->id = Yii::$app->db2->createCommand("SELECT nextval('registro_id_seq');")->queryAll()[0]['nextval'];
             $model->estado = 0;
 
             $producto = Producto::find()->where(['id' => $model->producto_id])->one();
             $model->precio_venta = $producto->precio_unit;
             $model->precio_costo= $producto->costo_unit;
-
-            if ($model->save()) {
-                Yii::$app->session->setFlash('success', "Registro de ".$model->producto->nombre.", guardado.");
-            }else{
-                Yii::$app->session->setFlash('danger', "Registro de ".$model->producto->nombre.", NO SE PUDO guardar.");
-                echo "<script>window.history.back();</script>";
-                die;
-            }
 
 
             if($model->tipo_r_id == 1){
@@ -104,22 +91,34 @@ class RegistroController extends Controller
                 $producto->cantidad_actual = $producto->cantidad_actual - $model->cantidad;
             }
 
-            $bit = new Bitacora();
-            $bit->id = Yii::$app->db2->createCommand("SELECT nextval('bitacora_id_seq');")->queryAll()[0]['nextval'];
-            $bit->fecha = date('Y-m-d');
-            $bit->descripcion = 'Insertar Registro: '.$model->fecha.' Producto: '.$producto->nombre.'.';
-
-
-            if ($model->save()) {
-                if(!$bit->save()){
-                    print_r($bit->getErrors());
-                    die;
-                };
-                $producto->save();
-
+            if ($producto->cantidad_actual < 0){
+                Yii::$app->session->setFlash('danger', "Producto: ".$model->producto->nombre.", NO tiene suficientes UNIDADES para esa transacción.");
                 echo "<script>window.history.back();</script>";
                 die;
             }
+                $bit = new Bitacora();
+                $bit->id = Yii::$app->db2->createCommand("SELECT nextval('bitacora_id_seq');")->queryAll()[0]['nextval'];
+                $bit->fecha = date('Y-m-d');
+                $bit->descripcion = 'Insertar Registro: ' . $model->fecha . ' Producto: ' . $producto->nombre . '.';
+
+
+            if ($model->save()) {
+                Yii::$app->session->setFlash('success', "Registro de ".$model->producto->nombre.", guardado.");
+            }else{
+                Yii::$app->session->setFlash('danger', "Registro de ".$model->producto->nombre.", NO SE PUDO guardar.");
+                echo "<script>window.history.back();</script>";
+                die;
+            }
+                if ($model->save()) {
+                    if (!$bit->save()) {
+                        print_r($bit->getErrors());
+                        die;
+                    };
+                    $producto->save();
+                    echo "<script>window.history.back();</script>";
+                    die;
+                }
+
         }
 
         return $this->renderAjax('create', [
@@ -141,9 +140,11 @@ class RegistroController extends Controller
 
         if ($model->load(Yii::$app->request->post())) {
 
+            $model->nombre = rtrim(ltrim($model->fecha));
+            $model->nombre = rtrim(ltrim($model->observaciones));
+
             if ($model->save()) {
                 Yii::$app->session->setFlash('warning', "Registro de ".$model->producto->nombre.", actualizado.");
-                echo "<script>window.history.back();</script>";
             }else{
                 Yii::$app->session->setFlash('danger', "Registro de ".$model->producto->nombre.", NO SE PUDO actualizar.");
                 echo "<script>window.history.back();</script>";

@@ -36,15 +36,6 @@ class CategoriaPController extends Controller
      */
     public function actionIndex()
     {
-        if (Yii::$app->user->identity) {
-            $userE = Yii::$app->db2->createCommand("SELECT dblink_user_exist(" . Yii::$app->user->identity->getId() . ");")->queryAll()[0]['dblink_user_exist'];
-            if ($userE == 0){
-                Yii::$app->user->logout();
-                return $this->redirect(['site/login']);
-            }
-        }else{
-            return $this->redirect(['site/login']);
-        }
         $searchModel = new CategoriaPSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         $dataProvider->query->andFilterWhere(['=', 'estado', '0'])->all();
@@ -78,6 +69,19 @@ class CategoriaPController extends Controller
         $model = new CategoriaP();
 
         if ($model->load(Yii::$app->request->post())) {
+
+            $nombre = strtoupper($model->nombre);
+            $cats = CategoriaP::find()->andFilterWhere(['=', 'estado', 0])->all();
+            foreach ($cats AS $cat){
+                if (trim(strtoupper($cat->nombre)) == trim($nombre)){
+                    Yii::$app->session->setFlash('danger', "Cateogria: ".$model->nombre.", YA EXISTE.");
+                    echo "<script>window.history.back();</script>";
+                    die;
+                }
+            }
+            $model->nombre = rtrim(ltrim($model->nombre));
+
+
             $model->id = Yii::$app->db2->createCommand("SELECT nextval('categoria_p_id_seq');")->queryAll()[0]['nextval'];
             $model->estado = 0;
 
@@ -121,6 +125,16 @@ class CategoriaPController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post())) {
+            $nombre = strtoupper($model->nombre);
+            $cats = CategoriaP::find()->andFilterWhere(['=', 'estado', 0])->andFilterWhere(['!=', 'id', $model->id])->all();
+            foreach ($cats AS $cat){
+                if (trim(strtoupper($cat->nombre)) == trim($nombre)){
+                    Yii::$app->session->setFlash('danger', "Cateogria: ".$model->nombre.", YA EXISTE.");
+                    echo "<script>window.history.back();</script>";
+                    die;
+                }
+            }
+            $model->nombre = rtrim(ltrim($model->nombre));
 
             if ($model->save()) {
                 Yii::$app->session->setFlash('warning', "Categoría ".$model->nombre.", actualizada.");

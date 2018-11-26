@@ -39,15 +39,6 @@ class ProductoController extends Controller
      */
     public function actionIndex()
     {
-        if (Yii::$app->user->identity) {
-            $userE = Yii::$app->db2->createCommand("SELECT dblink_user_exist(" . Yii::$app->user->identity->getId() . ");")->queryAll()[0]['dblink_user_exist'];
-            if ($userE == 0){
-                Yii::$app->user->logout();
-                return $this->redirect(['site/login']);
-            }
-        }else{
-            return $this->redirect(['site/login']);
-        }
         $searchModel = new ProductoSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         $dataProvider->query->andFilterWhere(['=', 'estado', '0'])->all();
@@ -237,6 +228,19 @@ select cursorch(".$cat.");
         $model = new Producto();
 
         if ($model->load(Yii::$app->request->post())) {
+
+            $model->nombre = rtrim(ltrim($model->nombre));
+            $model->nombre = rtrim(ltrim($model->observaciones));
+
+            $nombre = strtoupper($model->nombre);
+            $cats = Producto::find()->andFilterWhere(['=', 'estado', 0])->all();
+            foreach ($cats AS $cat){
+                if (trim(strtoupper($cat->nombre)) == trim($nombre)){
+                    Yii::$app->session->setFlash('danger', "Producto: ".$model->nombre.", YA EXISTE.");
+                    echo "<script>window.history.back();</script>";
+                    die;
+                }
+            }
             $model->id = Yii::$app->db2->createCommand("SELECT nextval('producto_id_seq');")->queryAll()[0]['nextval'];
             $model->estado = 0;
 
@@ -294,6 +298,19 @@ select cursorch(".$cat.");
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post())) {
+
+            $model->nombre = rtrim(ltrim($model->nombre));
+            $model->nombre = rtrim(ltrim($model->observaciones));
+
+            $nombre = strtoupper($model->nombre);
+            $cats = Producto::find()->andFilterWhere(['=', 'estado', 0])->andFilterWhere(['!=', 'id', $model->id])->all();
+            foreach ($cats AS $cat){
+                if (trim(strtoupper($cat->nombre)) == trim($nombre)){
+                    Yii::$app->session->setFlash('danger', "Producto ".$model->nombre.", YA EXISTE.");
+                    echo "<script>window.history.back();</script>";
+                    die;
+                }
+            }
 
             if ($model->save()) {
                 Yii::$app->session->setFlash('warning', "Producto ".$model->nombre.", actualizado.");

@@ -43,12 +43,15 @@ class Producto extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'precio_unit', 'category_id'], 'required'],
+            [['id', 'precio_unit', 'costo_unit', 'category_id', 'nombre'], 'required'],
             [['id', 'cantidad_actual', 'estado', 'category_id'], 'default', 'value' => null],
-            [['id', 'cantidad_actual', 'estado', 'category_id'], 'integer'],
-            [['precio_unit', 'costo_unit'], 'number'],
+            [['id', 'estado', 'category_id'], 'integer'],
+            [['precio_unit', 'costo_unit'], 'number', 'min' => 1],
             [['observaciones'], 'string'],
             [['nombre'], 'string', 'max' => 45],
+            ['precio_unit', 'compare', 'compareAttribute' => 'costo_unit', 'operator' => '>'],
+            ['costo_unit', 'compare', 'compareAttribute' => 'precio_unit', 'operator' => '<'],
+            [['cantidad_actual'], 'integer'],
             [['id'], 'unique'],
             [['category_id'], 'exist', 'skipOnError' => true, 'targetClass' => CategoriaP::className(), 'targetAttribute' => ['category_id' => 'id']],
         ];

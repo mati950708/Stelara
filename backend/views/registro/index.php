@@ -114,7 +114,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute'=>'producto_id',
                 'value'=>'producto.nombre',
                 'filterType'=>GridView::FILTER_SELECT2,
-                'filter'=>ArrayHelper::map(backend\models\Producto::find()->orderBy('nombre')->all(), 'id', 'nombre'),
+                'filter'=>ArrayHelper::map(backend\models\Producto::find()->andFilterWhere(['=', 'estado', '0'])->orderBy('nombre')->all(), 'id', 'nombre'),
                 'filterWidgetOptions'=>[
                     'pluginOptions'=>['allowClear'=>true],
                 ],
@@ -134,7 +134,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute'=>'cliente_id',
                 'value'=>'cliente.nombre',
                 'filterType'=>GridView::FILTER_SELECT2,
-                'filter'=>ArrayHelper::map(backend\models\Cliente::find()->orderBy('nombre')->all(), 'id', 'nombre'),
+                'filter'=>ArrayHelper::map(backend\models\Cliente::find()->andFilterWhere(['=', 'estado', '0'])->andFilterWhere(['=', 'estado', '0'])->orderBy('nombre')->all(), 'id', 'nombre'),
                 'filterWidgetOptions'=>[
                     'pluginOptions'=>['allowClear'=>true],
                 ],
@@ -142,17 +142,11 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
 
             ['class' => 'yii\grid\ActionColumn',
-                'template' => '{view}{update}',
+                'template' => '{view}',
                 'buttons' => [
                     'view' => function ($url, $model) {
                         return Html::button('<span class="glyphicon glyphicon-eye-open"></span>', ['value' => Url::to('index.php?r=registro%2Fview&id='.$model->id), 'class' => 'modalButtonView'], [
                             'title' => Yii::t('app', 'View'),
-                        ]);
-                    },
-
-                    'update' => function ($url, $model) {
-                        return Html::button('<span class="glyphicon glyphicon-pencil"></span>', ['value' => Url::to('index.php?r=registro%2Fupdate&id='.$model->id), 'class' => 'modalButtonEdit'], [
-                            'title' => Yii::t('app', 'Update'),
                         ]);
                     },
                 ],

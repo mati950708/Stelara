@@ -36,15 +36,6 @@ class ProveedorController extends Controller
      */
     public function actionIndex()
     {
-        if (Yii::$app->user->identity) {
-            $userE = Yii::$app->db2->createCommand("SELECT dblink_user_exist(" . Yii::$app->user->identity->getId() . ");")->queryAll()[0]['dblink_user_exist'];
-            if ($userE == 0){
-                Yii::$app->user->logout();
-                return $this->redirect(['site/login']);
-            }
-        }else{
-            return $this->redirect(['site/login']);
-        }
         $searchModel = new ProveedorSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         $dataProvider->query->andFilterWhere(['=', 'estado', '0'])->all();
@@ -78,6 +69,12 @@ class ProveedorController extends Controller
         $model = new Proveedor();
 
         if ($model->load(Yii::$app->request->post())) {
+
+            $model->nombre = rtrim(ltrim($model->nombre));
+            $model->nombre = rtrim(ltrim($model->telefono));
+            $model->nombre = rtrim(ltrim($model->direccion));
+            $model->nombre = rtrim(ltrim($model->observaciones));
+
             $model->id = Yii::$app->db2->createCommand("SELECT nextval('proveedor_id_seq');")->queryAll()[0]['nextval'];
             $model->estado = 0;
 
@@ -118,6 +115,11 @@ class ProveedorController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post())) {
+            $model->nombre = rtrim(ltrim($model->nombre));
+            $model->nombre = rtrim(ltrim($model->telefono));
+            $model->nombre = rtrim(ltrim($model->direccion));
+            $model->nombre = rtrim(ltrim($model->observaciones));
+
             if ($model->save()) {
                 Yii::$app->session->setFlash('warning', "Proveedor ".$model->nombre.", actualizado.");
             }else{

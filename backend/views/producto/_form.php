@@ -17,10 +17,10 @@ use yii\widgets\ActiveForm;
             <?= $form->field($model, 'nombre')->textInput(['maxlength' => true]) ?>
         </div>
         <div class="col-lg-4">
-            <?= $form->field($model, 'precio_unit')->Input('number') ?>
+            <?= $form->field($model, 'precio_unit')->Input('numeric') ?>
         </div>
         <div class="col-lg-4">
-            <?= $form->field($model, 'costo_unit')->Input('number') ?>
+            <?= $form->field($model, 'costo_unit')->Input('numeric') ?>
         </div>
     </div>
     <div class="row">
@@ -28,7 +28,7 @@ use yii\widgets\ActiveForm;
         if ($model->isNewRecord) {
             ?>
             <div class="col-lg-6">
-                <?= $form->field($model, 'cantidad_actual')->Input('number') ?>
+                <?= $form->field($model, 'cantidad_actual')->Input('number', ['min' => '1']) ?>
             </div>
             <div class="col-lg-6">
                 <?= $form->field($model, 'category_id')->dropDownList(

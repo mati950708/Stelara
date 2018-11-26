@@ -54,7 +54,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'category_id',
 
             ['class' => 'yii\grid\ActionColumn',
-                'template' => '{view}{update}{delete}',
+                'template' => '{view}{update}',
                 'buttons' => [
                     'view' => function ($url, $model) {
                         return Html::button('<span class="glyphicon glyphicon-eye-open"></span>', ['value' => Url::to('index.php?r=producto%2Fview&id='.$model->id), 'class' => 'modalButtonView'], [
@@ -67,16 +67,6 @@ $this->params['breadcrumbs'][] = $this->title;
                             'title' => Yii::t('app', 'Update'),
                         ]);
                     },
-
-                    'delete' => function ($url, $model) {
-                        return Html::a('<span class="glyphicon glyphicon-trash"></span>', 'index.php?r=producto/delete&id='.$model->id, [
-                            'data-method' => 'POST',
-                            'title' => Yii::t('app', 'Update'),
-                            'data-confirm' => "¿Está seguro que desea eliminar esta categoría?",
-                            'role' => 'button',
-                            'class' => 'modalButtonDelete',
-                        ]);
-                    }
                 ],
             ],
         ],
