@@ -74,8 +74,7 @@ class RegistroController extends Controller
 
         if ($model->load(Yii::$app->request->post())) {
 
-            $model->nombre = rtrim(ltrim($model->fecha));
-            $model->nombre = rtrim(ltrim($model->observaciones));
+            $model->observaciones = rtrim(ltrim($model->observaciones));
 
             $model->id = Yii::$app->db2->createCommand("SELECT nextval('registro_id_seq');")->queryAll()[0]['nextval'];
             $model->estado = 0;
@@ -140,8 +139,7 @@ class RegistroController extends Controller
 
         if ($model->load(Yii::$app->request->post())) {
 
-            $model->nombre = rtrim(ltrim($model->fecha));
-            $model->nombre = rtrim(ltrim($model->observaciones));
+            $model->observaciones = rtrim(ltrim($model->observaciones));
 
             if ($model->save()) {
                 Yii::$app->session->setFlash('warning', "Registro de ".$model->producto->nombre.", actualizado.");

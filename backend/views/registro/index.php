@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <p>
         <?= Html::button(Yii::t('app', 'Crear Registro'), ['value' => 'index.php?r=registro/create', 'class' => 'modalButtonCreate']) ?>
-        <?= Html::a(Yii::t('app', 'Generar reporte de ganancias'), ['report'], ['class' => 'btn btn-info']) ?>
+        <?= Html::a(Yii::t('app', 'Generar reporte de ganancias'), ['report'], ['class' => 'btn btn-info', 'target' => '_blank']) ?>
     </p>
 
     <?php echo ExportMenu::widget([

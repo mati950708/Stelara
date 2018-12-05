@@ -71,8 +71,8 @@ class MateriaPrimaController extends Controller
         if ($model->load(Yii::$app->request->post())) {
 
             $model->nombre = rtrim(ltrim($model->nombre));
-            $model->nombre = rtrim(ltrim($model->descripcion));
-            $model->nombre = rtrim(ltrim($model->observaciones));
+            $model->descripcion = rtrim(ltrim($model->descripcion));
+            $model->observaciones = rtrim(ltrim($model->observaciones));
 
             $nombre = strtoupper($model->nombre);
             $cats = MateriaPrima::find()->andFilterWhere(['=', 'proveedor_id', $model->proveedor_id])->all();
@@ -125,8 +125,8 @@ class MateriaPrimaController extends Controller
         if ($model->load(Yii::$app->request->post())) {
 
             $model->nombre = rtrim(ltrim($model->nombre));
-            $model->nombre = rtrim(ltrim($model->descripcion));
-            $model->nombre = rtrim(ltrim($model->observaciones));
+            $model->descripcion = rtrim(ltrim($model->descripcion));
+            $model->observaciones = rtrim(ltrim($model->observaciones));
 
             $nombre = strtoupper($model->nombre);
             $cats = MateriaPrima::find()->andFilterWhere(['!=', 'id', $model->id])->andFilterWhere(['!=', 'proveedor_id', $models->proveedor_id])->all();

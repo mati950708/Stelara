@@ -71,9 +71,9 @@ class ProveedorController extends Controller
         if ($model->load(Yii::$app->request->post())) {
 
             $model->nombre = rtrim(ltrim($model->nombre));
-            $model->nombre = rtrim(ltrim($model->telefono));
-            $model->nombre = rtrim(ltrim($model->direccion));
-            $model->nombre = rtrim(ltrim($model->observaciones));
+            $model->telefono = rtrim(ltrim($model->telefono));
+            $model->direccion = rtrim(ltrim($model->direccion));
+            $model->observaciones = rtrim(ltrim($model->observaciones));
 
             $model->id = Yii::$app->db2->createCommand("SELECT nextval('proveedor_id_seq');")->queryAll()[0]['nextval'];
             $model->estado = 0;
@@ -116,9 +116,9 @@ class ProveedorController extends Controller
 
         if ($model->load(Yii::$app->request->post())) {
             $model->nombre = rtrim(ltrim($model->nombre));
-            $model->nombre = rtrim(ltrim($model->telefono));
-            $model->nombre = rtrim(ltrim($model->direccion));
-            $model->nombre = rtrim(ltrim($model->observaciones));
+            $model->telefono = rtrim(ltrim($model->telefono));
+            $model->direccion = rtrim(ltrim($model->direccion));
+            $model->observaciones = rtrim(ltrim($model->observaciones));
 
             if ($model->save()) {
                 Yii::$app->session->setFlash('warning', "Proveedor ".$model->nombre.", actualizado.");

@@ -230,7 +230,7 @@ select cursorch(".$cat.");
         if ($model->load(Yii::$app->request->post())) {
 
             $model->nombre = rtrim(ltrim($model->nombre));
-            $model->nombre = rtrim(ltrim($model->observaciones));
+            $model->observaciones = rtrim(ltrim($model->observaciones));
 
             $nombre = strtoupper($model->nombre);
             $cats = Producto::find()->andFilterWhere(['=', 'estado', 0])->all();
@@ -300,7 +300,7 @@ select cursorch(".$cat.");
         if ($model->load(Yii::$app->request->post())) {
 
             $model->nombre = rtrim(ltrim($model->nombre));
-            $model->nombre = rtrim(ltrim($model->observaciones));
+            $model->observaciones = rtrim(ltrim($model->observaciones));
 
             $nombre = strtoupper($model->nombre);
             $cats = Producto::find()->andFilterWhere(['=', 'estado', 0])->andFilterWhere(['!=', 'id', $model->id])->all();

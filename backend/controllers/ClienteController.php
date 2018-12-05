@@ -76,11 +76,11 @@ class ClienteController extends Controller
             $model->estado = 0;
 
             $model->nombre = rtrim(ltrim($model->nombre));
-            $model->nombre = rtrim(ltrim($model->amaterno));
-            $model->nombre = rtrim(ltrim($model->apaterno));
-            $model->nombre = rtrim(ltrim($model->direccion));
-            $model->nombre = rtrim(ltrim($model->observaciones));
-            $model->nombre = rtrim(ltrim($model->telefono));
+            $model->amaterno = rtrim(ltrim($model->amaterno));
+            $model->apaterno = rtrim(ltrim($model->apaterno));
+            $model->direccion = rtrim(ltrim($model->direccion));
+            $model->observaciones = rtrim(ltrim($model->observaciones));
+            $model->telefono = rtrim(ltrim($model->telefono));
 
             if ($model->save()) {
                 Yii::$app->session->setFlash('success', "Cliente ".$model->nombre.", guardado.");
@@ -122,11 +122,11 @@ class ClienteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
 
             $model->nombre = rtrim(ltrim($model->nombre));
-            $model->nombre = rtrim(ltrim($model->amaterno));
-            $model->nombre = rtrim(ltrim($model->apaterno));
-            $model->nombre = rtrim(ltrim($model->direccion));
-            $model->nombre = rtrim(ltrim($model->observaciones));
-            $model->nombre = rtrim(ltrim($model->telefono));
+            $model->amaterno = rtrim(ltrim($model->amaterno));
+            $model->apaterno = rtrim(ltrim($model->apaterno));
+            $model->direccion = rtrim(ltrim($model->direccion));
+            $model->observaciones = rtrim(ltrim($model->observaciones));
+            $model->telefono = rtrim(ltrim($model->telefono));
 
             if ($model->save()) {
                 Yii::$app->session->setFlash('warning', "Cliente ".$model->nombre.", actualizado.");
