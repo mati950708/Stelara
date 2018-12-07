@@ -1,0 +1,33 @@
+<?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST');
+header('Access-Control-Allow-Headers: Origin, Content-type, X-Auth-Token');
+header('Content-Type: application/json');
+$host = 'localhost';
+$port = 5432;
+$db = 'Stelara';
+$user = 'postgres';
+$pass = 'postgres';
+$json;
+
+$cadena = "host='$host' port='$port' dbname='$db' user='$user' password='$pass'";
+$con = pg_connect($cadena) or die("Error de conexión ".pg_last_error());
+
+
+$query = 'SELECT * FROM cliente
+WHERE estado = 0;';
+$result = pg_query($query) or die('La consulta fallo: ' . pg_last_error());
+
+// Imprimiendo los resultados en HTML
+
+  $i=0;
+while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {
+
+	$rawdata[$i] = $line;
+        $i++;
+ 
+}
+
+  $myArray = $rawdata;
+        echo json_encode($myArray);
+?>
