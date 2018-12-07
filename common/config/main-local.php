@@ -9,7 +9,7 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'pgsql:host=localhost;dbname=Stelara_users',
+            'dsn' => 'pgsql:host=150.40.9.6;dbname=Stelara_users',
             'username' => 'postgres',
             'password' => 'postgres',
             'charset' => 'utf8',
